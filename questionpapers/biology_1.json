@@ -1,0 +1,814 @@
+[
+    {
+        "_id" : 0,
+        "statement" : "What map unit (Centimorgan) is adopted in the construction of genetic maps?",
+        "option1" : "A unit of distance between two expressed genes representing 100% cross over.",
+        "option2" : "A unit of distance between genes on chromosomes, representing 1% cross over.",
+        "option3" : "A unit of distance between genes on chromosomes, representing 50% cross over.",
+        "option4" : "A unit of distance between two expressed genes representing 10% cross over.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 1,
+        "statement" : "Select the correct group of biocontrol agents",
+        "option1" : "<i>Trichoderma, Baculovirus, Bacillus thuringiensis</i>",
+        "option2" : "<i>Oscillatioria, Rhizobium, Trichoderma</i>",
+        "option3" : "<i>Nostoc, Azospirillium, Nucleopolyhedrovirus</i>",
+        "option4" : "<i>Bacillus thuringiensis, Tobacco mosaic virus, Aphids",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 2,
+        "statement" : "The ciliated epithelial cells are required to move particles or mucus in a specified direction. In human, these cells are mainly present in ",
+        "option1" : "Fallopian tubes and Pancreatic duct",
+        "option2" : "Eustachian tube and Salivary duct",
+        "option3" : "Bronchioles and Fallopian tubes",
+        "option4" : "Bile duct and Bronchioles",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 3,
+        "statement" : "A gene locus has two alleles A, a. If the frequency of dominant allele A is 0.4, then what will be the frequency of homozygous dominant, heterozygous and homozygous recessive individuals in the population?",
+        "option1" : "0.16(AA); 0.24(Aa); 0.36(aa)",
+        "option2" : "0.16(AA); 0.48(Aa); 0.36(aa)",
+        "option3" : "0.16(AA); 0.36(Aa); 0.48(aa)",
+        "option4" : "0.36(AA); 0.48(Aa); 0.16(",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 4,
+        "statement" : "Select the incorrect statement",
+        "option1" : "Inbreeding is essential to evolve purelines in any animal.",
+        "option2" : "Inbreeding selects harmful recessive genes that reduce fertility and productivity",
+        "option3" : "Inbreeding helps in accumulation of superior genes and elimination of undesirable genes.",
+        "option4" : "Inbreeding increases homozygosity.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 5,
+        "statement" : "Which of the following factors is responsible for the formation of concentrated urine?",
+        "option1" : "Maintaining hyperosmolarity towards inner medullary interstitium in the kidneys.",
+        "option2" : "Secretion of erythropoietin by Juxtaglomerular complex.",
+        "option3" : "Hydrostatic pressure during glomerular filtration",
+        "option4" : "Low levels of antidiuretic hormone.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 6,
+        "statement" : "Match Column-1 with column-2<br><table><tr><th>Column-1</th><th>Column-2</th></tr><tr><td>Saprophyte</td><td>Symbiotic association of fungi with plant roots</td></tr><tr><td>Parasite</td><td>Decomposition of dead organic materials</td></tr><tr><td>Liches</td><td>Living on living plants or animals</td></tr><tr><td>Mycorrhiza</td><td>Symbiotic assocaiton of algae and fungi</td></tr><table><br>Choose the correct answer from the option given below",
+        "option1" : "(iii) (ii) (i) (iv)",
+        "option2" : "(ii) (i) (iii) (iv)",
+        "option3" : "(ii) (iii) (iv) (i)",
+        "option4" : "(i) (ii) (iii) (iv)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 7,
+        "statement" : "Which of the following glucose transporters is insulin-dependent?",
+        "option1" : "GLUT II",
+        "option2" : "GLUT III",
+        "option3" : "GLUT IV",
+        "option4" : "GLUT I",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 8,
+        "statement" : "Grass leaves curl inwards during very dry weather. Select the most appropriate reason from the following.",
+        "option1" : "Flaccidity fo buliform cells",
+        "option2" : "Shrinkage of air spaces in spongy mesophyll",
+        "option3" : "tyloses in vessels",
+        "option4" : "Closure of stomata",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 9,
+        "statement" : "Concanavalin A is",
+        "option1" : "an essential oil",
+        "option2" : "a lectin",
+        "option3" : "a pgment",
+        "option4" : "an alkaloid",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 10,
+        "statement" : "Select the incorrect statement.",
+        "option1" : "In male grasshoppers 50% of sperms have no sex-chromosome",
+        "option2" : "In domesticated fowis, sex of pregeny depends on the type of sperm rather than egg",
+        "option3" : "Human males have one of their sex-chromosomes much shorter than the other",
+        "option4" : "Male fruit fly is heterogametic",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 11,
+        "statement" : "Which of the following is not a method of in <i>site</i> conservation of biodiversity?",
+        "option1" : "Wildlife Sanctuary",
+        "option2" : "Botanical Garden",
+        "option3" : "Sacred Grove",
+        "option4" : "Biosphere Reverse",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 12,
+        "statement" : "Which of the following statements is incorrect?",
+        "option1" : "<i>Claviceps</i> is a source of many alkaloids and LSD.",
+        "option2" : "Conidia are produces exogenously and ascospores endogenously.",
+        "option3" : "Yeasts have filamentous bodies with long thread-like hyphae.",
+        "option4" : "Morels and trufles are edible delicacies.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 13,
+        "statement" : "Which of the following contractptive methods do involve a role of hormone?",
+        "option1" : "Barrier method, Lactational amenorrhea, Pills.",
+        "option2" : "Cut, Pills, Emergency contractptives.",
+        "option3" : "Pills, Emergency contractptives, Barrier methods.",
+        "option4" : "Lactational amenorhea, Pills Emergency contractptives.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 14,
+        "statement" : "Match the following organisms with their respective charactersitics : <br><table><tr><td>(a) <i>Pile</i></td><td>Flame cells</td></tr><tr><td><i>Bombyx</i></td><td>Comb cells</td></tr><tr><td><i>Pleurobrachia</i></td><td>Raudla</td></tr><tr><td><i>Taenai</i></td><td>Malpighia tubules</td><tr></table><br>Select the correct option from the following : ",
+        "option1" : "(iii) (iv) (ii) (i)",
+        "option2" : "(ii) (iv) (iii) (i)",
+        "option3" : "(iii) (ii) (iv) (i)",
+        "option4" : "(iii) (ii) (i) (iv)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 15,
+        "statement" : "Drug called 'Heroin' is synthesized by",
+        "option1" : "acetylation of morphine",
+        "option2" : "glycosylation of morphine",
+        "option3" : "nitration of morphine",
+        "option4" : "methylatio of morphine",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 16,
+        "statement" : "Match the following organisms with the products they produce<br><table><tr><td><i>Lactobacillus</i></td><td>Cheese</td></tr><tr><td><i>Saccharomyces cerevisiae</i></td><td>Cure</td></tr><tr><td><i>Aspergillus niger</i></td><td>Citric acid</td></tr><tr><td><i>Acetobacter aceti</i></td><td>Bread</td></tr><tr><td></td><td>Acetic acid</td></tr></table><br> select the correct option.",
+        "option1" : "(ii) (iv) (iii) (v)",
+        "option2" : "(iii) (iv) (v) (i)",
+        "option3" : "(ii) (i) (iii) (v)",
+        "option4" : "(ii) (iv) (v) (iii)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 17,
+        "statement" : "What is the site of perception of photoperiod necessary for induction of flowering in plants?",
+        "option1" : "Pulvinus",
+        "option2" : "Shoot apex",
+        "option3" : "Leaves",
+        "option4" : "Lateral buds",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 18,
+        "statement" : "Tidal Volume and Expiratory Reserve Volume of an athlete is 500 mL and 1000 mL, respectively. What will be his Expiratory Capacity if the Residual volume is 1200 mL?",
+        "option1" : "1700 mL",
+        "option2" : "2200 mL",
+        "option3" : "2700 mL",
+        "option4" : "1500 mL",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 19,
+        "statement" : "<i>Thiobacillus</i> is a group of bacterial helpful in carrying out",
+        "option1" : "Chemoautotrophic fixation",
+        "option2" : "Nitrification",
+        "option3" : "Denitrification",
+        "option4" : "Nitrogen fixation",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 20,
+        "statement" : "In a speices, the weight of newborn ranges from 2 to 5 kg. 97% of the newborn with an average weight between 3 to 3.3 kg survive whereas 99% of the infants born with weights from 2 to 2.5 kg ro 4.5 to 5 kg die. which type fo selection process is taking place?",
+        "option1" : "Stabilizing Selection",
+        "option2" : "Disruptive Selection",
+        "option3" : "Cyclical Selection",
+        "option4" : "Directional Selection",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 21,
+        "statement" : "In <i>Antirrhinum</i> (Snapdragon), a red flower was crossed with a white flower and in F<sub>1</sub> generation pink flowers were obtained. When pink flowers were selfed, the F<sub>2</sub> generation showed white, red and pink flowers. Choose the incorrect statement from the following :",
+        "option1" : "Pink colour in F<sub>1</sub> is due to incomplete dominance.",
+        "option2" : "Ratio of F<sub>2</sub> is <sup>1</sup>-<sub>4</sub>(Red) : <sup>2</sup>-<sub>4</sub>(Pink) : <sup>1</sup>-<sub>4</sub>(White)",
+        "option3" : "Law of segregation does not apply in this experiment",
+        "option4" : "This experiment doesnot follow the Principle of Dominance.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 22,
+        "statement" : "Expressed Sequence Tage (ESTs) refers to :",
+        "option1" : "Polypeptide expression",
+        "option2" : "DNA polymorphism",
+        "option3" : "Novel DNA sequences",
+        "option4" : "Genes expressed as RNA",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 23,
+        "statement" : "Identify the cells whose secretion protects the lining of gastro-intestianl tract from various enzymes",
+        "option1" : "Goblet Cells",
+        "option2" : "Oxyntic Cells",
+        "option3" : "Duodenal Cells",
+        "option4" : "Cheif Cells",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 24,
+        "statement" : "Extrusion of second polar body from egg nucleus occurs :",
+        "option1" : "after fertilization",
+        "option2" : "before entry of sperm into ovum",
+        "option3" : "simultaneously with first cleavage",
+        "option4" : "after entry of sperm but before fertilization",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 25,
+        "statement" : "Match the hominids with their correct brain size : <br><table><tr><td>(a) <i>Homo habilis</i></td><td>(i) 900 cc </td></tr><tr><td>(b) <i>Homo neanderthalensis</i></td><td>(ii) 1350 cc</td></tr><tr><td>(c) <i>Homo erectus</i></td><td> 650-800 cc </td></tr><tr><td>(d) <i>Homo sapiens</td></i><td>(iv> 1400 cc </td></tr></table> <br> Select the correct option.",
+        "option1" : "(iii) (ii) (i) (iv)",
+        "option2" : "(iii) (iv) (i) (ii)",
+        "option3" : "(iv) (iii) (i) (ii)",
+        "option4" : "(iii) (i) (iv) (ii)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 26,
+        "statement" : "Which of the following statements is not correct ?",
+        "option1" : "The hydrolytic enzymes of lysosomes are active under acidic pH",
+        "option2" : "Lysosomes are membrane bound structures",
+        "option3" : "Lysosomes are formed by the process of packaging in the endoplasmic reticulum",
+        "option4" : "Lysosomes have numerous hydrolytic enzymes",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 27,
+        "statement" : "Select the hormone-releasing Intra-Uterine Devices.",
+        "option1" : "Multiload 375, Progestasert",
+        "option2" : "Progestasert, LNG-20",
+        "option3" : "Lippes Loop, Multiload 375",
+        "option4" : "Vaults, LNG-20",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 28,
+        "statement" : "Respiratory Quotient (RQ) value of tripalmitin is",
+        "option1" : "0.7",
+        "option2" : "0.07",
+        "option3" : "0.09",
+        "option4" : "0.9",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 29,
+        "statement" : "Pinus seed cannot germinate and establish without fungal association. This is because :",
+        "option1" : "its has obligate association with mycorrhizae.",
+        "option2" : "its has very hard seed coat.",
+        "option3" : "its seeds contain inhibitors that prevent germination.",
+        "option4" : "its embryo is immature",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 30,
+        "statement" : "Select the correct sequence of organs in the alimentary canal of cockroach starting from mouth",
+        "option1" : "Pharynx -> Oesophagus -> Gizzard -> Crop -> Lleum -> Colon -> Rectum",
+        "option2" : "Pharynx -> Oesophagus -> Gizzard -> Lleum -> Crop -> Colon -> Rectum",
+        "option3" : "Pharynx -> Oesophagus -> Lleum -> Crop -> Gizzard -> Colon -> Rectum",
+        "option4" : "Pharynx -> Oesophagus -> Crop -> Gizzard -> Lleum -> Colon -> Rectum",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 31,
+        "statement" : "Under which of the following conditions will tere be no change in the reading frame of the following mRNA? <br> 5'AACAGCGGUGCUAUU3'",
+        "option1" : "Deletion of G from 5<sup>th</sup> position",
+        "option2" : "Insertion of A and G at 4<sup>th</sup> and 5<sup>th</sup> positions respectively",
+        "option3" : "Deletion of GGu from 7<sup>th</sup>, 8<sup>th</sup> and 9<sup>th</sup> positions",
+        "option4" : "Insertion of G at 5<sup>th</sup> position",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 32,
+        "statement" : "From evolutionary point of view, retention of the female gametophyte with developing young embryo on the parent sporophyte for some time, is first observed in ",
+        "option1" : "Mosses",
+        "option2" : "Pteridophytes",
+        "option3" : "Gymnosperms",
+        "option4" : "Liverworts",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 33,
+        "statement" : "Match the following hormones with the respective disease <br><table><tr><td>Insulin</td><td>Addison's disease</td></tr><tr><td>Thyroxin</td><td>Diabetes insipidus</td></tr><tr><td>Corticoids</td><td>Acromegaly</td></tr><tr><td>Growth Hormone</td><td>Goitre</td></tr><tr><td></td><td>Diabetes mellitus</td></tr></table><br> Select the correct option.",
+        "option1" : "(ii) (iv) (iii) (i)",
+        "option2" : "(v) (iv) (i) (iii)",
+        "option3" : "(ii) (iv) (i) (iii)",
+        "option4" : "(v) (i) (ii) (iii)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 34,
+        "statement" : "The concept of '<i>Omnis cellula-e cellula</i>' regarding cell division was first proposed by",
+        "option1" : "Theodore Schwann",
+        "option2" : "Schleiden",
+        "option3" : "Aristotle",
+        "option4" : "Rudolf virchow",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 35,
+        "statement" : "Colostrum the yellowish fluid, secreted by mother during the initial days of lactation is very essential to impart immunity to the new born infants because it contains",
+        "option1" : "Monocytes",
+        "option2" : "Macrophages",
+        "option3" : "Immunoglobulin A",
+        "option4" : "Natural killer cells",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 36,
+        "statement" : "Polyblend, a find powder of recycled modified plastic, has proved to be a good material for",
+        "option1" : "Use as a fertilizer",
+        "option2" : "Construction of raods",
+        "option3" : "Making tubes and pipes",
+        "option4" : "Making plastic sacks",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 37,
+        "statement" : "It takes very long for pineapple plants to produce flowers. Which combination of hormones can be applied to artifically induce flowering in pineapple plants throughout the year to increase yield?",
+        "option1" : "Gibberellin and Cytokinin",
+        "option2" : "Gibberellin and Abscisic acid",
+        "option3" : "Cytokinin and Abscisic acid",
+        "option4" : "Auxin and Ethylene",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 38,
+        "statement" : "Which part of the brain is responsible for thermoregulation?",
+        "option1" : "Hypothalamus",
+        "option2" : "Corpus callosum",
+        "option3" : "Medulla oblongaa",
+        "option4" : "Cerebrum",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 39,
+        "statement" : "Which of the following pairs of gases is mainly responsible for green house effect?",
+        "option1" : "Oxygen and Nitrogen",
+        "option2" : "Nitrogen and Sulphur dioxide",
+        "option3" : "Carbon dioxide and Methane",
+        "option4" : "Ozone and Ammonia",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 40,
+        "statement" : "Match the following genes of the Lac operon with their respective products :<br><table><tr><td> i gene</td><td>beta-galactosidase</td></tr><tr><td> z gene</td><td>Permease</td></tr><tr><td> a gene</td><td>Repressor</td></tr><tr><td> y gene</td><td>Transacetylase</td></tr></table><br> Select the correct option.",
+        "option1" : "(iii) (i) (ii) (iv)",
+        "option2" : "(iii) (i) (iv) (ii)",
+        "option3" : "(iii) (iv) (i) (ii)",
+        "option4" : "(i) (iii) (ii) (iv)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 41,
+        "statement" : "DNA precipitation out of a mixture of biomolecules can be achieved by treatment with",
+        "option1" : "Chilled ethanol",
+        "option2" : "Methanol at room temperature",
+        "option3" : "Chilled chloroform",
+        "option4" : "Isopropanol",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 42,
+        "statement" : "The correct sequence of phases of cell cycles is ",
+        "option1" : "G<sub>1</sub> -> G<sub>2</sub> -> S -> M",
+        "option2" : "S -> G<sub>1</sub> -> G<sub>2</sub> -> M",
+        "option3" : "G<sub>1</sub> -> S -> G<sub>2</sub> -> M",
+        "option4" : "M -> G<sub>1</sub> -> G<sub>2</sub> -> S",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 43,
+        "statement" : "Which fo the following statements regarding mitochondria is incorrect?",
+        "option1" : "Enzymes of electron transport are embedded in outer membrane",
+        "option2" : "Inner membrane is convolunted with infoldings",
+        "option3" : "Mitchondrial matrix contains single circular DNA molecule and ribosomes",
+        "option4" : "Outer membranes is permeable to monomers of carbohydrates, fats and proteins.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 44,
+        "statement" : "The frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes was explanined by : ",
+        "option1" : "Gregor J. Mendel",
+        "option2" : "Alfred Strutevant",
+        "option3" : "Sutton Boveri",
+        "option4" : "T.H. Morgan",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 45,
+        "statement" : "Identify the correct pair representing the causative agent of typhoid fever and the confirmatory test for typhoid.",
+        "option1" : "<i>Streptococcus pneumoniae/ </i>Widal test",
+        "option2" : "<i>Salmonella typhi</i>/ Anthrone test",
+        "option3" : "<i>Salmonella typhi</i>/ Widal test",
+        "option4" : "<i>Plasmodium vivax</i>/ UTI Test",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 46,
+        "statement" : "The Earth summit was held in Rio de Janeiro in 1992 was called ",
+        "option1" : "for conservation of biodiversity and sustainable utilizaiton of its benefits",
+        "option2" : "to assess threat posed to native species by invasive wed species",
+        "option3" : "for immediate steps to discontinue use of CFCs that were damaging the ozone layer",
+        "option4" : "to reduce CO<sub>2</sub> emission and global warming",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 47,
+        "statement" : "Variations caused by mutation, as proposed by Hugo de Vries are ",
+        "option1" : "random and directionless",
+        "option2" : "small and directional",
+        "option3" : "small and directionaless",
+        "option4" : "random and directional",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 48,
+        "statement" : "Which of the following can be used as a biocontrol agent in the treatment of plant disease?",
+        "option1" : "<i>Chlorella",
+        "option2" : "<i>Anabaena",
+        "option3" : "<i>Lactobacillus",
+        "option4" : "<i>Trochoderma",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 49,
+        "statement" : "Which of the following immune responses is responsible for rejection of kidney graft?",
+        "option1" : "Humoral immune response",
+        "option2" : "Inflammatory immune response",
+        "option3" : "Cell-mediated immune response",
+        "option4" : "Auto-immune response",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 50,
+        "statement" : "Cells in G<sub>0</sub> phase : ",
+        "option1" : "enter the cell cycle",
+        "option2" : "suspend the cell cycle",
+        "option3" : "terminates the cell cycle",
+        "option4" : "exit the cell cycle",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 51,
+        "statement" : "Which of the following is a commercial blood cholesterol lowering agent?",
+        "option1" : "Stalin",
+        "option2" : "Streptokinase",
+        "option3" : "Lipases",
+        "option4" : "Cyclosporin A",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 52,
+        "statement" : "Which of the following muscular disorders is inherited?",
+        "option1" : "Muscular dystrophy",
+        "option2" : "Myasthenia gravis",
+        "option3" : "Botulism",
+        "option4" : "Tetany",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 53,
+        "statement" : "Select the correct option.",
+        "option1" : "11<sup>th</sup> and 12<sup>th</sup> pairs of ribs are connected to the sternum with the help of hyaline cartilage.",
+        "option2" : "Each rib is a flat thin bone and all the ribs are connected dorsally to the thoracic vertebrae and ventrally to the sternum.",
+        "option3" : "There are seven pairs of vertebrosternal, three pairs of vertibrochondral and two pairs of vertebral ribs.",
+        "option4" : "8<sup>th</sup>, 9<sup>th</sup> and 10<sup>th</sup> pairs articulate directly with the sternum.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 54,
+        "statement" : "Which of the following statements is correct?",
+        "option1" : "Cornea consists of dense connective tissue of elastic and can repair itself.",
+        "option2" : "Cornea is convex, trnasparent layer which is highly vascularised.",
+        "option3" : "Cornea consists of dense matrix of collagen and is the most sensitive portion the eye.",
+        "option4" : "cornea is an external, trasparent and protective proteinacious covering of the eye-ball.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 55,
+        "statement" : "Following statements describe the characteristics of the enzyme Restriction Endonuclease. Identify the incorrect statement",
+        "option1" : "The enzyme binds DNA at specific sites and cuts only one of the two strands.",
+        "option2" : "The enzyme cuts the sugar-phosphate backbone at specific sites on each strand.",
+        "option3" : "The enzyme recognizes a specific palindromic nucleotide sequence in the DNA.",
+        "option4" : "The enzyme cuts DNA molucule at identified position within the DNA.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 56,
+        "statement" : "Phloem in gymnosperms lacks :",
+        "option1" : "Sieve tubes only",
+        "option2" : "Companion cells only",
+        "option3" : "Both sieve tubes and companion cells",
+        "option4" : "Albuminous cells and sieve cells",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 57,
+        "statement" : "Use of an artificial kidney during hemodialysis may result in : <br>Nitrogenous waste build-up in the body <br>(b) Non-elimination of excess potassium ions<br>(c) Reduced absorption of calcium ions from gastro-intestinal tract<br>(d) Reduced RBC production<br> which of the following options is the most appropirate?",
+        "option1" : "b and c are correct",
+        "option2" : "b and d are correct",
+        "option3" : "a and d are correct",
+        "option4" : "a and b are correct",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 58,
+        "statement" : "Which of the following statements is incorrect?",
+        "option1" : "Viruses are obligate parasites.",
+        "option2" : "Infective constituent in viruses is the protein coat.",
+        "option3" : "Prions consist of abnormally folded proteins.",
+        "option4" : "Viroids lack a protein coat.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 59,
+        "statement" : "Due to increasing air-borne allergens and pollutants, many people in urban areas are suffering from respiratory disorder causing wheezing due to",
+        "option1" : "inflammation of bronchi and bronchioles",
+        "option2" : "proliferation of fibrous tissues and damage of the alveolar walls",
+        "option3" : "reduction in the secreation of surfactants by pneumocytes.",
+        "option4" : "benign growth on mucous lining of nasal cavity.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 60,
+        "statement" : "Which of the following sexually transmitted diseases in not completly curable?",
+        "option1" : "Genital warts",
+        "option2" : "Genital herpes",
+        "option3" : "Chlamydiasis",
+        "option4" : "Gonorrhoea",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 61,
+        "statement" : "How does steroid hormones influence the cellular activities?",
+        "option1" : "Binding to DNA  and forming a genehormone complex",
+        "option2" : "Activating cyclic AMP located on the cell membrane",
+        "option3" : "Using aquaporin channels as second messenger",
+        "option4" : "Changing the permeability of the cell membrane.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 62,
+        "statement" : "Which of the statements given below is not true about formation of Annual Rings in trees?",
+        "option1" : "Differential activity of cambium causes light and dark bands of tissue early and late wood respectively.",
+        "option2" : "Activity of cambium depends upon variation in climate.",
+        "option3" : "Annual rings are not prominent in trees of temperate region.",
+        "option4" : "Annual ring is not combination of spring wood and autumn wood produced in a year.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 63,
+        "statement" : "What is the direction of movement of sugars in phloem?",
+        "option1" : "Upward",
+        "option2" : "Downward",
+        "option3" : "Bi-directional",
+        "option4" : "Non-multidirectional",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 64,
+        "statement" : "The sorter and longer arms of a submetacentric chromosome are referred to as",
+        "option1" : "p-arm and q-arm respectively",
+        "option2" : "q-arm and p-arm respectively",
+        "option3" : "m-arm and n-arm respectively",
+        "option4" : "s-arm and l-arm respectively",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 65,
+        "statement" : "Which of the following methods is the ost suitable for disposal of nuclear waste?",
+        "option1" : "Bury the waste under Antarctic ice-cover",
+        "option2" : "Dump the waste within rocks under deep ocean",
+        "option3" : "Bury the waste within rocks deep below the Earth's surface",
+        "option4" : "Shoot the waste into space",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 66,
+        "statement" : "Match the column-I with column-II<br><table><tr><td> P-wave</td><td> Depolarisation of ventricles</td><tr><tr><td> QRS complex</td><td> Repolarisation of ventricles</td></tr><tr><td> T-wave</td><td> Coronary ischemia</td></tr><tr><td> Reduction in the size of T-wave</td><td>Depolarisation of atria</td></tr><tr><td></td><td>Repolarisaion of atria</td></tr></table><br> Select the correct option.",
+        "option1" : "(iv) (i) (ii) (v)",
+        "option2" : "(ii) (i) (v) (iii)",
+        "option3" : "(ii) (iii) (v) (iv)",
+        "option4" : "(iv) (i) (ii) (iii)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 67,
+        "statement" : "Which one of the following statements regrading post-fertilization development in flowering plants is incorrect?",
+        "option1" : "Zygote develops into embryo",
+        "option2" : "Central cell develops into endosperm",
+        "option3" : "Ovules develop into embryo sav",
+        "option4" : "Ovary develops into fruit",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 68,
+        "statement" : "Select the correctly written scientific name of Mange which was first described by Carolus Linnaeus",
+        "option1" : "<i> Mangifera indica Linn.",
+        "option2" : "<i> Mangifera indica",
+        "option3" : "<i> Mangifera indica",
+        "option4" : "<i> Mangifera indica Car. Linn.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 69,
+        "statement" : "What is the fate of the male gametes discharged in the synergid?",
+        "option1" : "All fuse with the egg.",
+        "option2" : "One fuses with the egg, other(s) fuse(s) with synergid nucleus.",
+        "option3" : "One fuses with the egg and other fuses with central cell nuclei.",
+        "option4" : "One fuses with egg other(s) degenerate(s) in the synergid.",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 70,
+        "statement" : "Which of the following features of genetic code does allow bacteria to produce human insulin by recombinant DNA technology?",
+        "option1" : "Genetic code is redundant",
+        "option2" : "Genetic code is nearly universal",
+        "option3" : "Genetic code is specific",
+        "option4" : "Genetic code is not ambiguous",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 71,
+        "statement" : "Which of the following pair of organelles does not contain DNA?",
+        "option1" : "Chloroplast and Vacuoles",
+        "option2" : "Lysosomes and Vacuoles",
+        "option3" : "Nuclear envelope and Mitochondria",
+        "option4" : "Mitochondria and Lysosomes",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 72,
+        "statement" : "In some plants, the femals gamete develops into embryo without fertilization. This is phenomenon is known as",
+        "option1" : "Parthenocarpy",
+        "option2" : "Syngamy",
+        "option3" : "Parthenogenesis",
+        "option4" : "Autogamy",
+        "imgsrc" : ""
+    },
+
+    {
+        "_id" : 73,
+        "statement" : "Consider the following statement : <br> (A) Coenzyme or metal ion that is tightly bound to enzyme protein is called prostetic group.<br>(B)A complete catalytic active enzyme with its bound prosthetic group is called apoenzyme.<br> Select the correct option.",
+        "option1" : "A is true but B is false",
+        "option2" : "both A and B are false",
+        "option3" : "A is false but B is true",
+        "option4" : "Both A and B are true",
+        "imgsrc" : ""
+    },{
+        "_id" : 74,
+        "statement" : "Conversion of glucose to glucose-6-phosphate, the first irreversible reaction of glycolysis, is catalyzed by",
+        "option1" : "Hexokinase",
+        "option2" : "Enolase",
+        "option3" : "Phosphofructokinase",
+        "option4" : "Alsolase",
+        "imgsrc" : ""
+    },
+
+    {
+        "_id" : 75,
+        "statement" : "Which of the following ecological pyramids is generally inverted?",
+        "option1" : "Pyramid of energy",
+        "option2" : "Pyramid of biomass in a forest",
+        "option3" : "Pyramid of biomass in a sea",
+        "option4" : "Pyramid of nubmers in grassland",
+        "imgsrc" : ""
+    },{
+        "_id" : 76,
+        "statement" : "Consider following features<br>(a) Organ system level of organisation <br> (b) Bilateral symmetry<br> (c) True coelomates with segmentation of body <br>Select the correct order of animal groups which possess all the above characteristics",
+        "option1" : "Annelida, Arthrpoda and Mollusca",
+        "option2" : "Arthropoda, Mollusca and Chordata",
+        "option3" : "Annelida, Mollusca and Chordata",
+        "option4" : "annelida, Arthropoda and Chordata",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 77,
+        "statement" : "What is the genetic disorder in which an individual has an overall masculine development gynaecomastia, and is sterile?",
+        "option1" : "Klinefelter's syndrome",
+        "option2" : "Edward syndrome",
+        "option3" : "Down's syndrome",
+        "option4" : "Turner's syndrome",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 78,
+        "statement" : "Which of the following is the most important casue for animals and plants being driven to extinction?",
+        "option1" : "Drought and floods",
+        "option2" : "Economic exploitation",
+        "option3" : "Alien species invasion",
+        "option4" : "Habitat loss and fragmentation",
+        "imgsrc" : ""
+    },
+
+    {
+        "_id" : 79,
+        "statement" : "What triggers activation of protoxin to active Bt toxin of <i>Bacillus thurigiensis</i> in bollworm?",
+        "option1" : "Moist surface of midgut",
+        "option2" : "Alkaline pH of gut",
+        "option3" : "Acidic pH of stomach",
+        "option4" : "Body temperature",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 80,
+        "statement" : "Select the correct sequence for transport of sperm cells in male reproductive system.",
+        "option1" : "Seminiferous tubules -> Rete testis -> Vasa efferentia -> Epididymis -> Vasdeferens -> Ejaculatory duct -> Urethra -> Urethral meatus",
+        "option2" : "Seminiferous tubules -> Vasa Efferentia -> Epididymis -> Inguinal canal -> Urethra",
+        "option3" : "Testis -> Epididymis -> Vasa Efferentia -> Vas deferens -> Ejaculatory duct -> Inguinal canal -> Urethra -> Urethral meatus",
+        "option4" : "Testis -> Epididymis -> Vasa Efferentia -> Rete testis -> Inguinal canal -> Urethra",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 81,
+        "statement" : "Persistent nucellus in the seed is known as",
+        "option1" : "Perisperm",
+        "option2" : "Hilum",
+        "option3" : "Tegmen",
+        "option4" : "Chalaza",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 82,
+        "statement" : "Which one of the following equipments is essentially required for growing microbes on a large scale, for industrial production of enzymes?",
+        "option1" : "Sludge digester",
+        "option2" : "Industrial oven",
+        "option3" : "Bioreactor",
+        "option4" : "BOD incubator",
+        "imgsrc" : ""
+    },
+
+    {
+        "_id" : 83,
+        "statement" : "Match the following structures with their respective location in organs <br> <table><tr><td>Crypts of Lieberkuhn</td><td>Pancreas</td></tr><tr><td>Glisson's Capsule</td><td>Duodenum</td></tr><tr><td>Islets of Langerhans</td><td>Small intestine</td></tr><tr><td>Brunner's Glands</td><td>Liver</td></tr></table><br>Select the correct option from the following",
+        "option1" : "(ii) (iv) (i) (iii)",
+        "option2" : "(iii) (iv) (i) (ii)",
+        "option3" : "(iii) (ii) (i) (iv)",
+        "option4" : "(iii) (i) (ii) (iv)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 84,
+        "statement" : "What would be the heart rate of a person if the cardiac output is 5 L, blood volume in the ventricles at the end of diastole is 100 mL and at the end of ventricular systole is 50 mL?",
+        "option1" : "75 beats per minute",
+        "option2" : "100 beats per minute",
+        "option3" : "125 beats per minute",
+        "option4" : "50 beats per minute",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 85,
+        "statement" : "Xylem translocates",
+        "option1" : "Water and mineral salts only",
+        "option2" : "Water, mineral salts and some organic nitrogen only",
+        "option3" : "Water, mineral salts, some organic nitrogen and hormones",
+        "option4" : "Water only",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 86,
+        "statement" : "Which of the following is true for Golden rice?",
+        "option1" : "It is pest resistant, with a gene from <i>Bacillus thuringiensis</i>",
+        "option2" : "It is drought tolerant, developed using <i>Agrobacterium</i> vector",
+        "option3" : "It has yellow grains, because of a gene introduced from a primitive variety of rice",
+        "option4" : "It is Vitamin A enriched, with a gene from daffodil",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 87,
+        "statement" : "Purines found both in DNA and RNA are",
+        "option1" : "Adenine and guanine",
+        "option2" : "Guanine and cytosine",
+        "option3" : "Cytosine and thymine",
+        "option4" : "Adenine and thymine",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 88,
+        "statement" : "Which of the following protocols did aim for reducing emission of chlorofluorocarbons into the atmosphere?",
+        "option1" : "Kyoto Protocol",
+        "option2" : "Gothenburg Protocol",
+        "option3" : "Geneva Protocol",
+        "option4" : "Montreal Protocol",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 89,
+        "statement" : "Placentation in which ovules develop on the inner wall of the ovary or in peripheral part, is",
+        "option1" : "Axile",
+        "option2" : "Parietal",
+        "option3" : "Free central",
+        "option4" : "Basal",
+        "imgsrc" : ""
+    }
+]

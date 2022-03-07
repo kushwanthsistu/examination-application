@@ -1,0 +1,227 @@
+[
+    { 
+        "_id" : 0,
+        "statement" : "the minimum value of p for which the lines<br>3<i>x</i> - 4<i>y</i> = 2 <br>3<i>x</i> - 4<i>y</i> = 12<br>12<i>x</i> + 5<i>y</i> = 7 and <br>12<i>x</i> + 5<i>y</i> = p constitute the sides of a rhombus is",
+        "option1" : "33",
+        "option2" : "9",
+        "option3" : "19",
+        "option4" : "-19",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 1,
+        "statement" : "The number of point(s) of minima of the polynomial<br>y = 10x<sup>6</sup> - 24x<sup>5</sup> + 15x<sup>4</sup> - 40x<sup>2</sup> + 108<br> is(are) equal to ",
+        "option1" : "1",
+        "option2" : "2",
+        "option3" : "3",
+        "option4" : "4",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 2,
+        "statement" : "how many 5-digit telephone numbers can be formed using the digits 0 to 9, if each number starts with 67 and repetition is not allowed",
+        "option1" : "334",
+        "option2" : "336",
+        "option3" : "338",
+        "option4" : "348",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 3,
+        "statement" : "the system of linear equations<br>x + y + z = 1<br>x + 2y + 4z = &lambda;<br>x + 4y + 10z = &lambda;<sup>2</sup><br> has a solution if it satisfies the following",
+        "option1" : "&lambda; equal to -1",
+        "option2" : "&lambda; not equal to 1",
+        "option3" : "&lambda; equal to 2",
+        "option4" : "&lambda; has not value",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 4,
+        "statement" : "If f(x) = sin(3x)/sin(x), x &NotEqual; n&pi;, then number of integers in the range of f(x) is",
+        "option1" : "5",
+        "option2" : "4",
+        "option3" : "3",
+        "option4" : "2",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 5,
+        "statement" : "If the latus rectum of a hyperbola through one focus, subtends an angle 60<sup>o</sup> at the other focus, then its eccentricity is ",
+        "option1" : "&radic;2",
+        "option2" : "&radic;3",
+        "option3" : "&radic;5",
+        "option4" : "&radic;6",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 6,
+        "statement" : "The probability of getting a score of exactly 9 twice when a pair of fair dice is thrown independently three times is",
+        "option1" : "8&frasl;729",
+        "option2" : "8&frasl;243",
+        "option3" : "1&frasl;729",
+        "option4" : "8&frasl;9",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 7,
+        "statement" : "The void relation on a set A is",
+        "option1" : "Reflexive",
+        "option2" : "Symmetric and transitive",
+        "option3" : "Reflexive and symmetric",
+        "option4" : "reflexive and transitive",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 8,
+        "statement" : "The function f : R -> R defined by f(x) = |x| is :",
+        "option1" : "One-one only",
+        "option2" : "Onto only",
+        "option3" : "Both one-one and onto",
+        "option4" : "Neither one-one nor onto",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 9,
+        "statement" : "Lagrange's mean value theorem is not applicable to which of the following function in the interval [1,3](where [.] represents greatest integer function) :",
+        "option1" : "",
+        "option2" : "",
+        "option3" : "",
+        "option4" : "",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 10,
+        "statement" : "Which of the following options is most relevant? <br><b>Statement 1</b> : The tangents drawn to a parabola at points (1,2) and (3,4) intersect at point (-2, -3). The slope of the axis of the parabola is 3/2.<br><b>Statement 2</b> : The line joining the points of intersection of tangents and normals at the extremities of the focal chord of parabola is parallel to the axis of the parabola.",
+        "option1" : "Statement 1 is true, Statement 2 is true; Statement 2 is the correct explanation for Statement 1",
+        "option2" : "Statement 1 is true, Statement 2 is true; Statement is not the correct explanation for statement 1",
+        "option3" : "Statement 1 is true, Statement 2 is false",
+        "option4" : "Statement 1 if false, Statement 2 is true",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 11,
+        "statement" : "An arc of a bridge is semi-elliptical with major axis horizontal. If the length of the base is 9 m and highest part of the bridge is 3 m from base, then what will be the best approximation of the height of the arch 2 m from the center of the base?",
+        "option1" : "11/4 m",
+        "option2" : "8/3 m",
+        "option3" : "7/2 m",
+        "option4" : "2 m",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 12,
+        "statement" : "Let f(x) = -x<sup>2</sup> + x + p, where p is a real number. If g(x) = [f(x)], and g(x) is discontinous at x = 1/2, then p cannot be(where [.] represents the greatest integer function)",
+        "option1" : "1/2",
+        "option2" : "3/4",
+        "option3" : "7/4",
+        "option4" : "-1/4",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 13,
+        "statement" : "The number of integers for which the equation <br> sin<sup>-1</sup><i>x</i> + cos<sup>-1</sup><i>x</i> + tan<sup>-1</sup><i>x</i> = n has real solution(s) is",
+        "option1" : "0",
+        "option2" : "1",
+        "option3" : "2",
+        "option4" : "3",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 14,
+        "statement" : "Two natural numbers are randomly chosen and multiplied, then the chance that their product is divisible by 5 is",
+        "option1" : "4/25",
+        "option2" : "9/25",
+        "option3" : "16/25",
+        "option4" : "1/25",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 15,
+        "statement" : "The coefficient of x<sup>6</sup> in the expansion of (1-x)<sup>8</sup>(1+x)<sup>12</sup> is equal to",
+        "option1" : "168",
+        "option2" : "-8",
+        "option3" : "28",
+        "option4" : "104",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 16,
+        "statement" : "The equation of an ex-circle of a triangle formed by the common tangents to the circle <br> x<sup>2</sup> + y<sup>2</sup> = 4 and <br> x<sup>2</sup> + y<sup>2</sup> - 6x + 8 = 0 is",
+        "option1" : "x<sup>2</sup> + y<sup>2</sup> = 4",
+        "option2" : "x<sup>2</sup> + y<sup>2</sup> - 6x + 8 = 0",
+        "option3" : "x<sup>2</sup> + y<sup>2</sup> - 6x + 9 = 0",
+        "option4" : "x<sup>2</sup> + y<sup>2</sup> = 1",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 17,
+        "statement" : "If the observations 1,2,3,....,n occur with frequency n,(n-1),(n-2),.....,1 respecitively such that the mean of observations is 13/3, then n is equal to",
+        "option1" : "10",
+        "option2" : "11",
+        "option3" : "12",
+        "option4" : "13",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 18,
+        "statement" : "The directional cosines of the two lines satisfy<br> 2l + 2m - n = 0 and <br> lm + mn + nl = 0. The angle between these lines is",
+        "option1" : "&pi;/4",
+        "option2" : "&pi;/2",
+        "option3" : "&pi;/6",
+        "option4" : "&pi;/3",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 19,
+        "statement" : "A status of height 4 m stands on a tower of height 10 m. The angle subtended by the status at the eyes of an observer of height 2m, standing at a distance of 6m from vase of the tower is",
+        "option1" : "tan<sup>-1</sup> (2/11)",
+        "option2" : "tan<sup>-1</sup> (4/3",
+        "option3" : "tan<sup>-1</sup> (2)",
+        "option4" : "tan<sup>-1</sup> (7/13)",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 20,
+        "statement" : "The number of permutations of alphabets of the word 'ENSHRINE' in which no two alike alphabets are together is equal to",
+        "option1" : "5760",
+        "option2" : "6000",
+        "option3" : "5500",
+        "option4" : "5420",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 21,
+        "statement" : "The area bounded by the curves y = cos x and y = sin 2x, &forall;x &isin; [&pi;/6, &pi;/2] is equal to",
+        "option1" : "&pi;/2 sq. units",
+        "option2" : "&pi;/3 sq. units",
+        "option3" : "&pi;/6 sq. units",
+        "option4" : "1/4 sq. units",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 22,
+        "statement" : "For f : R -> R, f(x) = x<sup>4</sup> - 8x<sup>3</sup> + 22x<sup>2</sup> -  24x, the sum of all local extreme values of f(x) is equal to",
+        "option1" : "-9",
+        "option2" : "-8",
+        "option3" : "-17",
+        "option4" : "-26",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 23,
+        "statement" : "The number of solutions of the equation tan<i>x</i>.sin<i>x</i> -1 = tan<i>x</i> - sin<i>x</i>, &forall;x %isin; [0,2&pi;] equal to",
+        "option1" : "1",
+        "option2" : "2",
+        "option3" : "3",
+        "option4" : "4",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 24,
+        "statement" : "if the eccentricity of the hyperbola x<sup>2</sup>/16 - y<sup>2</sup>/b<sup>2</sup> = -1 is 5/4, then b<sup>2</sup> is equal to",
+        "option1" : "256/9",
+        "option2" : "16/3",
+        "option3" : "9",
+        "option4" : "3",
+        "imgsrc" : ""
+    }
+]

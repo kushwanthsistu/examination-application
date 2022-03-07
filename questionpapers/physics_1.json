@@ -1,0 +1,227 @@
+[
+    {
+        "_id" : 0,
+        "statement" : "Three very large plates of the same area are kept parallel and close to each other. they are considered as ideal black surfaces and have very high thermal conductivity. The first and third plates are maintained at temperatures 2T and 3T respectively. The temperature of the middle plate under steady state condition is",
+        "option1" : "(65/2)<sup>1/4</sup>T",
+        "option2" : "(97/4)<sup>1/4</sup>T",
+        "option3" : "(97/2)<sup>1/4</sup>T",
+        "option4" : "(97)<sup>1/4</sup>T",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 1,
+        "statement" : "There is a horizontal cylindrical uniform but time-varying magnetic field increasing at a constant rate dB/dt as shown. A charged particle having charge q and mass m is kept in equilibrium, at the top of a spring of spring constant K in such a way that it is on the horizontal line passing through the center of the magnetic field as shown in the figure. The compression of the spring will be",
+        "option1" : "1/K[mg-(qR<sup>2</sup>/2l)(dB/dt)]",
+        "option2" : "1/K[mg+(qR<sup>2</sup>/l)(dB/dt)]",
+        "option3" : "1/K[mg-(2qR<sup>2</sup>/l)(dB/dt)]",
+        "option4" : "1/K[mg+(qR<sup>2</sup>/2l)(dB/dt)]",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 2,
+        "statement" : "A ray of light of intensity I is incident on a parallel glass slab at the point A and it undergoes partial reflection and refraction as shown in the figure. At each reflection, 25% of the incident energy if reflected and the rest is transmitted. If the rays AB and A'B' undergo interference, then ratio of I<sub>max</sub> and I<sub>min</sub> is",
+        "option1" : "4 : 1",
+        "option2" : "8 : 1",
+        "option3" : "7 : 1",
+        "option4" : "49 : 1",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 3,
+        "statement" : "a manometer connected to a closed tap reads 3.5 X 10<sup>5</sup> Nm<sup>-2</sup>. When the valve is opened, the reading of the manometer falls to 3.0 X 10<sup>5</sup> Nm<sup>-2</sup>, then velocity of flow of water is ",
+        "option1" : "100 ms<sup>-1</sup>",
+        "option2" : "10 ms<sup>-1</sup>",
+        "option3" : "1 ms<sup>-1</sup>",
+        "option4" : "1000 ms<sup>-1</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 4,
+        "statement" : "A body of mass m is lifted by a man to a height of one meter in 30s. Another man lifts the same mass to the same height in 60s. The work done by them are in the ratio",
+        "option1" : "1 : 2",
+        "option2" : "1 : 1",
+        "option3" : "2 : 1",
+        "option4" : "4 : 1",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 5,
+        "statement" : "If M<sub>O</sub> is  the mass of an oxygen isotope <sub>8</sub>O<sup>17</sup>, M<sub>p</sub> and M<sub>n</sub> are the masses of a proton and a neutron, respectively, the nuclear binding energy of the isotope is ",
+        "option1" : "M<sub>O</sub>c<sup>2</sup>",
+        "option2" : "(M<sub>O</sub> - 17M<sub>n</sub>)c<sup>2</sup>",
+        "option3" : "(M<sub>O</sub> - 8M<sub>p</sub>)c<sup>2</sup>",
+        "option4" : "(8M<sub>p</sub> + 9M<sub>n</sub> - MM<sub>n</sub>)c<sup>2</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 6,
+        "statement" : "In Young's double-slit experiment, spacing between the two slits is 0.1 mm. If the screen is kept at a distance of 1.0 m from the slits and the wavelength of light is 5000 A<sup>o</sup>, then the fringe width is ",
+        "option1" : "1.0 cm",
+        "option2" : "1.5 cm",
+        "option3" : "0.5 cm",
+        "option4" : "2.0 cm",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 7,
+        "statement" : "In a radioactive series <sub>92</sub>U<sup>238</sup> changes to <sub>82</sub>Pb<sup>206</sup> throught a alpha decay process and b beta decay process, then",
+        "option1" : "a = 8,b = 8",
+        "option2" : "a = 6,b = 6",
+        "option3" : "a = 8,b = 6",
+        "option4" : "a = 6,b = 8",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 8,
+        "statement" : "The logic circuit shown below has the input waveforms A and B as shown. Pick out the correct output waveform.",
+        "option1" : "",
+        "option2" : "",
+        "option3" : "",
+        "option4" : "",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 9,
+        "statement" : "A vibration magnetometer consists of two identical magnets placed one over the other such that they are mutually perpendicular and bisect each other. The time peroid of the combination in a magnetic field is 4s. If one of the magnets is removed, then the time peroid of another one in the same field will be",
+        "option1" : "5.78 s",
+        "option2" : "3.36 s",
+        "option3" : "4.36 s",
+        "option4" : "5.36 s",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 10,
+        "statement" : "According to Huygen's principle, during refraction of light form air to a dense medium",
+        "option1" : "Wavelength decreases but speed increases",
+        "option2" : "Wavelength increases but speed decreases",
+        "option3" : "Wavelength and speed both increase",
+        "option4" : "Wavelength and speed both decrease",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 11,
+        "statement" : "A 100V, AC source of frequency 500 Hz is connected to an LCR circuit with L = 8.1 mH, C = 12.5 microF and R = 10 ohms. all connected in series as shown in the figure. what is the quality factor of the circuit?",
+        "option1" : "2.02",
+        "option2" : "2.54",
+        "option3" : "50.54",
+        "option4" : "200.54",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 12,
+        "statement" : "The amplitude of a simple pendulum is 10 cm. When the pendulum is at a displacement of 4cm from the mean position, the ratio of kinetic and potential energies at that point is ",
+        "option1" : "5.25",
+        "option2" : "2.5",
+        "option3" : "4.5",
+        "option4" : "7.5",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 13,
+        "statement" : "A square loop ABCD, carrying a current i, is placed near and coplanar with a long straight conductor XY carrying current I. Then,",
+        "option1" : "there is no net force on the loop",
+        "option2" : "the loop will be attracted by the conductor only if the current in the loop flows clockwise",
+        "option3" : "the loop will be attracted by the conductor only if the current in the loop flows anticlockwise",
+        "option4" : "the loop will always be attracted by the conductor",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 14,
+        "statement" : "Two coherent sound sources A and B produce a sound of wavelength &lambda;. If at t = 0 a detector starts moving with constant velocity v<sub>o</sub> form point O along y-direction, then the minimum time, after which it detects the sound of maximum intensity is (D >> &lambda;)",
+        "option1" : "7<sup>1/2</sup>D&frasl;v<sub>o</sub>",
+        "option2" : "D&frasl;3v<sub>o</sub>",
+        "option3" : "D&frasl;v<sub>o</sub>",
+        "option4" : "7<sup>1/2</sup>D&frasl;3v<sub>o</sub>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 15,
+        "statement" : "A capacitance of 2 &mu;F is reuqired in an electrical circuit across a potential difference of 1.0 kV. A large number of 1 microF capacitors are available which can withstand a potential difference of not more than 300 V. the minimum number of capacitors requried to achieve this is",
+        "option1" : "32",
+        "option2" : "2",
+        "option3" : "16",
+        "option4" : "24",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 16,
+        "statement" : "Visible light of wavelength 6000 x 10<sup>-8</sup>cm falls normally on a single slit and produces a diffraction pattern. It is found that the second diffraction minimum is at 60<sup>o</sup> from the central maximum. if the first minimum produced is &theta, then this angle is close ",
+        "option1" : "20<sup>o</sup>",
+        "option2" : "30<sup>o</sup>",
+        "option3" : "25<sup>o</sup>",
+        "option4" : "45<sup>o</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 17,
+        "statement" : "The capacitance of the capacitors C<sub>1</sub>, C<sub>2</sub> and C<sub>3</sub> are 4 &mu;F, 6 &mu;F and 12 &mu;F respectively as shown, and the switch S remains closed for a long time. When the switch S is opened, which of the following statements will be correct about the current flowing through the battery B?",
+        "option1" : "a finite and constant current will flow",
+        "option2" : "a finite current will flow initially that will decrease exponentially with time",
+        "option3" : "no current will flow",
+        "option4" : "information is insufficient to predict",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 18,
+        "statement" : "1.56 x 10<sup>5</sup> J of heat is conducted through a 12 cm thick wall of area 2 m<sup>2</sup> in one hour. if the temperature difference between the two sides of the wall is 20<sup>o</sup>C, then the thermal conductivity of the material of the wall is (in W m<sup>-1</sup> K<sup>-1</sup>",
+        "option1" : "0.11",
+        "option2" : "0.13",
+        "option3" : "0.15",
+        "option4" : "1.2",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 19,
+        "statement" : "A large vessel having a very small circular hole of diameter 1 mm at the bottom is filled with water. Up to what maximum height (in cm) water can be filled in teh vessel so that there is no leakage? [surface tension of water = 7.5 x 10<sup>-2</sup> Nm<sup>-1</sup> and g = 10]",
+        "option1" : "3",
+        "option2" : "6",
+        "option3" : "9",
+        "option4" : "12",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 20,
+        "statement" : "A body hanging from a spring stretches it by 1 cm at the earth's surface. How much will the same body stretch the spring at a place 1600 km above the earth's surface? (ans in cm) (radius of Earth = 6400 km)",
+        "option1" : "0.64",
+        "option2" : "0.48",
+        "option3" : "0.6",
+        "option4" : "0.36",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 21,
+        "statement" : "One-fourth length of a uniform rod is placed on a rough horizontal surface and it starts rotating about the edge as soon as we release it. The rod starts slipping on the edge when it has turned throught an angle a. if the coefficient of friction between rod and surface is m, and it satisfies the relation xtana = 4m, then what is the value of x?",
+        "option1" : "13",
+        "option2" : "14",
+        "option3" : "15",
+        "option4" : "16",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 22,
+        "statement" : "Water rises in a capillary tube to a height of 1cm. In another capillary where the radius is one-third of the first tube, how high will the water rise(in cm)?",
+        "option1" : "3",
+        "option2" : "1/3",
+        "option3" : "9",
+        "option4" : "1/9",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 23,
+        "statement" : "The resistance of each straight section is r = 2 ohms. find the equivalent resistance between A and B.",
+        "option1" : "7",
+        "option2" : "6",
+        "option3" : "8",
+        "option4" : "9",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 24,
+        "statement" : "A beam of light consisting of two wavelenghts, 650 nm and 520 nm is used to obtain interference fringes on young's double-slit experiment. What is the least distance (in mm) from a central maximum where the bright fringes due to both the wavelenghts coincide? The distance between the slits is 3mm and the distance between the plane of the slits and the screen is 150 cm.",
+        "option1" : "1.3",
+        "option2" : "1.4",
+        "option3" : "1.5",
+        "option4" : "1.6",
+        "imgsrc" : ""
+    }
+]

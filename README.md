@@ -1,2 +1,2 @@
-# examination-application
-An examination conducting application
+# Exam_app
+A basic exam app

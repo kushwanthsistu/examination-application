@@ -1,0 +1,33 @@
+#menubutton {
+    display : none ;
+}
+
+body {
+    background-color : red ;
+}
+
+@media screen and (max-width: 720px) {
+    #contentcontainer {
+        position: relative ;
+    }
+    #sidepallett {
+        width : 80% ;
+        position : absolute ;
+        top : 0px ;
+        left : 0px ;
+        display : none ;
+        background-color : whitesmoke ;
+    }
+    #menubutton {
+        display : inline ;
+    }
+}
+
+#loadmessage {
+    position : absolute ;
+    top : 0px ;
+    left : 0px ;
+    background-color: whitesmoke ;
+    width : 100% ;
+    height : 100% ;
+}

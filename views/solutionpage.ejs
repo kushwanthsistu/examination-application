@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Total questions : <%= totalquestions %></h2>
+    <h2>Attempted questions : <%= correct+incorrect %></h2>
+    <h2>Correct Answers : <%= correct %></h2>
+    <h2>Incorrect Answers : <%= incorrect %></h2>
+    <h2>Total Score : <%= score %> </h2> 
+    <div id="ansbuttons">
+    <% for(let i=0;i<totalquestions;i++) { %>
+       <% if(result[`answer${i}`]) { %>
+            <%if(result[`answer${i}`] === key[`answer${i}`]) { %>
+            <button id="<%= i %>" style = "background-color: lightgreen;"><%= i+1 %> </button>
+            <% }else if(result[`answer${i}`] === "notanswered") { %>
+            <button id="<%= i %>"><%= i+1 %> </button>
+            <% } else { %>
+            <button id="<%= i %>" style = "background-color: lightcoral;"><%= i+1 %> </button>
+            <% } %> 
+       <% } else { %>
+       <button id="<%= i %>"><%= i+1 %> </button> <% } %> 
+        <% } %> 
+    </div>
+    <div>
+        <p id="statement"></p>
+        <p id="firstoption"></p>
+        <p id="secondoption"></p>
+        <p id="thirdoption"></p>
+        <p id="fourthoption"></p>
+    </div>
+    <div id = "answers">
+    <% for(let i=0;i<totalquestions;i++) { %>
+        <p id="<%=`correctans${i}`%>" style = "display : none ;">Correct Answer : <%= key[`answer${i}`] %> </p>
+        <p id="<%=`userans${i}`%>" style = "display : none ;">Your Answer : 
+        <% if(result[`answer${i}`]) { %>
+            <%= result[`answer${i}`] %> 
+            <% } else { %>
+            not visited
+            <% } %> 
+        </p>
+    <% } %>
+    </div>
+    <script>
+        var ansbuttons = document.getElementById('ansbuttons') ;
+        let gofor ;
+        ansbuttons.addEventListener('click', (e) => {
+            gofor = e.target.id ;
+            let xhr = new XMLHttpRequest() ;
+            xhr.open('GET', `http://localhost:3000/exam/page/${gofor}` , true) ;
+            xhr.send() ;
+            xhr.onload = () => {
+                let data = xhr.responseText ;
+                data = JSON.parse(data) ;
+                display(data) ;
+            }
+        })
+        let display = (data) => {
+            document.getElementById('statement').innerText = data.statement ;
+            document.getElementById('firstoption').innerText = "A) " + data.option1 ;
+            document.getElementById('secondoption').innerText = "B) " + data.option2 ;
+            document.getElementById('thirdoption').innerText = "C) " + data.option3 ;
+            document.getElementById('fourthoption').innerText = "D) " + data.option4 ;
+            // document.getElementById('answers').style.display = "none" ;
+            pc.style.display = "none" ;
+            pua.style.display = "none" ;
+            pc = document.getElementById(`correctans${gofor}`) ;
+            pua = document.getElementById(`userans${gofor}`) ;
+            pc.style.display = "block" ;
+            pua.style.display = "block" ;
+        }
+        var pc = document.getElementById('correctans0') ;
+        var pua = document.getElementById('userans0') ;
+    </script>
+</body>
+</html>

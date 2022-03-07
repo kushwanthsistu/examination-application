@@ -1,0 +1,123 @@
+[
+    {
+        "_id" : 0 ,
+        "statement" : "Kala Namak rice or Buddha Rice, which was making news recently, is associated with which Indian state?" ,
+        "option1" : "Madhya Pradesh" ,
+        "option2" : "Uttar Pradesh" ,
+        "option3" : "Bihar" ,
+        "option4" : "Odisha" ,
+        "imgsrc" : "http://localhost:3000/images/demo.jpg"
+    } ,
+    {
+        "_id" : 1,
+        "statement" : "What is the user threshold mandated for defining a ‘significant’ social media intermediary?" ,
+        "option1" : "25 lakh" ,
+        "option2" : "50 lakh" ,
+        "option3" : "75 lakh" ,
+        "option4" : "1 crore" 
+    } ,
+    {
+        "_id" : 2 ,
+        "statement" : "The Government of India has proposed to partner with which institution for creating a Centre of Excellence in gaming?" ,
+        "option1" : "IIT Bombay" ,
+        "option2" : "NITI Aayog" ,
+        "option3" : "Microsoft" ,
+        "option4" : "Nvidia" 
+    } ,
+    {
+        "_id" : 3,
+        "statement" : "The Azadi ka Amrit Mahotsav celebrations were flagged off from which venue?" ,
+        "option1" : "Sabarmati Ashram" ,
+        "option2" : "Raj Ghat" ,
+        "option3" : "Statue of Unity" ,
+        "option4" : "Shakti Sthal" 
+    } ,
+    {
+        "_id" : 4,
+        "statement" : "Who are the heads of two high level task forces formed by the Government of India to lay roadmaps for enforcement of contracts and conciliation mechanisms?" ,
+        "option1" : "Narendra Modi and Rajnath Singh" ,
+        "option2" : "Nirmala Sitaraman and Amit Shah" ,
+        "option3" : "Rajiv Kumar and Amitabh Kant" ,
+        "option4" : "YM Deosthalee and Urjit Patel" 
+    } ,
+    {
+        "_id" : 5 ,
+        "statement" : "P. K. Mishra, Anil Ghanwat and Ashok Gulati are the members of the Supreme Court-appointed committee to study which issue?" ,
+        "option1" : "Disinvestment" ,
+        "option2" : "Agricultural Laws" ,
+        "option3" : "Occupational Health" ,
+        "option4" : "Anti-conversion Laws" 
+    } ,
+    {
+        "_id" : 6 ,
+        "statement" : "Which body collaborated with Hindustan Unilever and Google, for conducting “AI for Agriculture Hackathon”?" ,
+        "option1" : "UNESCO" ,
+        "option2" : "NITI Aayog" ,
+        "option3" : "AIM" ,
+        "option4" : "MyGov India" 
+    } ,
+    {
+        "_id" : 7,
+        "statement" : "From which date, the Government is set to implement mandatory hallmarking of gold jewellery?" ,
+        "option1" : "April 20, 2021" ,
+        "option2" : "May 1, 2021" ,
+        "option3" : "June 1, 2021" ,
+        "option4" : "August 1, 2021" 
+    } ,
+    {
+        "_id" : 8 ,
+        "statement" : "Which institution has proposed that India should provide additional incentives on purchase of EVs, in addition to that provided FAME-II?" ,
+        "option1" : "NITI Aayog" ,
+        "option2" : "GST council" ,
+        "option3" : "Finance Commission" ,
+        "option4" : "Society of Automobile Manufacturers" 
+    } ,
+    {
+        "_id" : 9 ,
+        "statement" : "Which Indian state is the first to launch the Online flood reporting system?" ,
+        "option1" : "Odisha" ,
+        "option2" : "Assam" ,
+        "option3" : "West Bengal" ,
+        "option4" : "Kerela" 
+    } ,
+    {
+        "_id" : 10, 
+        "statement" : "Who among the following has written Ghoolamgiri" ,
+        "option1" : "Acharya Vinoba Bhave" ,
+        "option2" : "Ishwar Chandra Vidyasagar" ,
+        "option3" : "Jyotiba Phule" ,
+        "option4" : "Dadu Dayal" 
+    } ,
+    {
+        "_id" : 11,
+        "statement" : "Which among the following movements started with breaking the salt law?" ,
+        "option1" : "Non-coopration Movement" ,
+        "option2" : "Civil Disobedience Movement" ,
+        "option3" : "Quit India Movement" ,
+        "option4" : "Home Rule Movement" 
+    } ,
+    {
+        "_id" : 12,
+        "statement" : "At which of the following places, Green Pamphlet was issued by Mahatma Gandhi?" ,
+        "option1" : "Calcutta" ,
+        "option2" : "Surat" ,
+        "option3" : "Rajkot" ,
+        "option4" : "Sabarmati" 
+    } ,
+    {
+        "_id" : 13 ,
+        "statement" : "Who is considered the “Father of Muslim Renaissance in Bengal” in Bengal?" ,
+        "option1" : "Abdul Latif" ,
+        "option2" : "Mirza Ghulam Ahmed" ,
+        "option3" : "Muhammad Qasim" ,
+        "option4" : "Rashid Ahmed Gangohi" 
+    } ,
+    {
+        "_id" : 14,
+        "statement" : "The British East India Company ceased to be a trading Company via which among the following legislation?" ,
+        "option1" : "Pitts India Act of 1784" ,
+        "option2" : "Charter Act of 1833" ,
+        "option3" : "Charter Act of 1813" ,
+        "option4" : "Government of India Act 1858" 
+    } 
+]

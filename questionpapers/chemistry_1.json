@@ -1,0 +1,227 @@
+[
+    {
+        "_id" : 0,
+        "statement" : "Which option doesnot represent the correct order of species, according to their properties given?",
+        "option1" : "NH<sub>3</sub> < PH<sub>3</sub> < AsH<sub>3</sub> (Acidic nature)",
+        "option2" : "Li < Be < B < C (Ionisation energy)",
+        "option3" : "Al<sub>2</sub>O<sub>3</sub> < MgO < Na<sub>2</sub>O < K<sub>2</sub>O (Basic nature)",
+        "option4" : "Li<sup>+</sup> < Na<sup>+</sup> < K<sup>+</sup> < Cs<sup>+</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 1,
+        "statement" : "What is the depressant used in the metallurgy of galena?",
+        "option1" : "Aniline",
+        "option2" : "NaCN",
+        "option3" : "Cresol",
+        "option4" : "Xanthates",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 2,
+        "statement" : "If pH of a saturated solution of Ba(OH)<sub>2</sub> is 12, the value of its K<sub>(sp)</sub> is found to be n x 10<sup>-7</sup> M<sup>3</sup>. Find the value of 'n' here?",
+        "option1" : "1",
+        "option2" : "2",
+        "option3" : "5",
+        "option4" : "4",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 3,
+        "statement" : "H<sub>3</sub>BO<sub>3</sub> is : ",
+        "option1" : "Exist as discrete units in solid state",
+        "option2" : "Weak tribasic Lewis acid",
+        "option3" : "Weak monobasic Lewis acid",
+        "option4" : "Weak monobasic bronsted acid",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 4,
+        "statement" : "x moles of Co(NH<sub>3</sub>)<sub>5</sub>.SO<sub>4</sub>.Cl reacts with excess of AgNO<sub>3</sub> solution and BaCl<sub>2</sub> solution seperately in two test tubes. The precipitate obtained in each case respectively are : ",
+        "option1" : "x,x",
+        "option2" : "2x,2x",
+        "option3" : "x/2,x/2",
+        "option4" : "x,2x",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 5,
+        "statement" : "The diamagnetic complex which has two geometric and 4 optically active isomers is",
+        "option1" : "[Co(gly)<sub>3</sub>]",
+        "option2" : "[Pt(en)<sub>2</sub>Cl<sub>2</sub>]<sup>2+</sup>",
+        "option3" : "[Co(en)<sub>3</sub>]<sup>3+</sup>",
+        "option4" : "[Fe(Ox)<sub>3</sub>]<sup>3-</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 6,
+        "statement" : "Select the correct option with respect to the given orders : <br>(i) Thermal stability : BeSO<sub>4</sub> < MgSO<sub>4</sub> < CaSO<sub>4</sub> < SrSO<sub>4</sub><br>(ii) Basic nature : ZnO > BeO > MgO > CaO.<br>(iii) Solubility in water : LiOH > NaOH > KOH > RbOH<br>(iv) Melting point : NaCl > KCl > RbCl > CsCl > LiCl",
+        "option1" : "i, iv",
+        "option2" : "i, ii and iv",
+        "option3" : "ii, iii",
+        "option4" : "All correct",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 7,
+        "statement" : "Correct IUPAC name for the shown compound is :",
+        "option1" : "2-chloro-4-methyl anisole",
+        "option2" : "3-chloro-4-methoxy-1-methyl benzene",
+        "option3" : "4-methoxy-1-methyl chlorobenzene",
+        "option4" : "1-chloro-2-methoxy-5-methyl benzene",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 8,
+        "statement" : "Find the correct product (A) after completion of reaction",
+        "option1" : "",
+        "option2" : "",
+        "option3" : "",
+        "option4" : "",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 9,
+        "statement" : "An organic compound with a molecular formula C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> forms pentaacetyl derivative on reduction with HI. In the presence of red P it gives n-hexane. It gives positive test on reaction with tollen's reagent and fehling's solution. If forms osazone with excess C<sub>6</sub>H<sub>5</sub>NHNH<sub>2</sub>. On oxidation with HNO<sub>3</sub>, it gives tartaric acid and glycolic acid. It is reduced to mixture sorbitol and mannitor. What is the compound?",
+        "option1" : "Glucose",
+        "option2" : "Galactose",
+        "option3" : "Fructose",
+        "option4" : "Lactose",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 10,
+        "statement" : "Propanol is more volatile as compared to glycerol because of ",
+        "option1" : "Less extent of hydrogen bonding",
+        "option2" : "High molar mass of propanol",
+        "option3" : "Hybridization",
+        "option4" : "All of the above",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 11,
+        "statement" : "In an E<sub>2</sub> reaction with hydroxide ion, which pair has the later alkyl halide more reactive than former?",
+        "option1" : "",
+        "option2" : "",
+        "option3" : "",
+        "option4" : "",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 12,
+        "statement" : "Predict the product",
+        "option1" : "",
+        "option2" : "",
+        "option3" : "",
+        "option4" : "",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 13,
+        "statement" : "Among the following which is true about hyperconjugation?",
+        "option1" : "&sigma; - &pi; conjugation",
+        "option2" : "noticed due to delocalisation of &sigma; and &pi; bonds",
+        "option3" : "no bond resonance",
+        "option4" : "All the above",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 14,
+        "statement" : "Molar conductances of 0.1 molar aqueous solution of ammonium hydroxide is 9.54 ohm<sup>-1</sup>cm<sup>2</sup>mol<sup>-1</sup>. Molar conductance at infinite dilution of ammonium hydroxide is 238 ohm<sup>-1</sup>cm<sup>2</sup>mol<sup>-1</sup>. The degree of ionisation of ammonium hydroxide at 0.1 M concentration is :",
+        "option1" : "40.800%",
+        "option2" : "2.080%",
+        "option3" : "20.800%",
+        "option4" : "4.008%",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 15,
+        "statement" : "Among the following aqueous solution, which has a lowest boiling point?",
+        "option1" : "1 M urea",
+        "option2" : "1 M NaCl",
+        "option3" : "1 M CaCl<sub>2</sub>",
+        "option4" : "1 M AlCl<sub>3</sub>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 16,
+        "statement" : "Given below is the chemical reaction responsible for removing the temporary hardness of water<br> Ca(HCO<sub>3</sub>)<sub>2</sub> + Ca(OH)<sub>2</sub> -> CaCO<sub>3</sub> + H<sub>2</sub>O (unbalanced).<br> What amount of Ca(OH)<sub>2</sub> in gram required to produce 5.9g of equimolar mixture of calcium carbonate and water.",
+        "option1" : "1.85 g",
+        "option2" : "3.25 g",
+        "option3" : "5.92 g",
+        "option4" : "0.05 g",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 17,
+        "statement" : "The heat of formation of XY is -200 KJ mol<sup>-1</sup> and the ration of bond dissociation energy of XY, X<sub>2</sub> and Y<sub>2</sub> are 1:1:0.5 then, what will be the bond dissociation energy of X<sub>2</sub>?",
+        "option1" : "800 KJ mol<sup>-1</sup>",
+        "option2" : "200 KJ mol<sup>-1</sup>",
+        "option3" : "300 KJ mol<sup>-1</sup>",
+        "option4" : "400 KJ mol<sup>-1</sup>",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 18,
+        "statement" : "The total number of &sigma; and &pi; bonds in napthalene is ",
+        "option1" : "24",
+        "option2" : "23",
+        "option3" : "25",
+        "option4" : "26",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 19,
+        "statement" : "What is the ratio of the number of &sigma; to &pi; bonds in cyclooctatetraene?",
+        "option1" : "2",
+        "option2" : "4",
+        "option3" : "3",
+        "option4" : "5",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 20,
+        "statement" : "How many carbon atoms are there in one molecule of product X?",
+        "option1" : "12",
+        "option2" : "6",
+        "option3" : "18",
+        "option4" : "15",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 21,
+        "statement" : "The order of reaction for the decomposition of gaseous ammonia on the hot platinum surface is",
+        "option1" : "0",
+        "option2" : "1",
+        "option3" : "2",
+        "option4" : "any higher order",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 22,
+        "statement" : "To neutralize completely 20 mL of 0.1 M aqueuos solution of phosphorus acid, the volume of 0.1 M aqueous NaOH solution required is ",
+        "option1" : "20 mL",
+        "option2" : "30 mL",
+        "option3" : "40 mL",
+        "option4" : "60 mL",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 23,
+        "statement" : "Equal volumes of 0.1 M NaCl and 0.06 M CaCl<sub>2</sub> solutions are separated by a semi-permeable membrane in container. For this system, choose the correct answer",
+        "option1" : "Water flows from NaCl solution towards CaCl<sub>2</sub>",
+        "option2" : "There is no movement of any solution across the membrane",
+        "option3" : "Osmotic pressure of 0.1 M NaCl is lower than the osmotic pressure of CaCl<sub>2</sub>. (assuming complete dissociation)",
+        "option4" : "Water flows from CaCl<sub>2</sub> solution towards NaCl solution",
+        "imgsrc" : ""
+    },
+    {
+        "_id" : 24,
+        "statement" : "Which of the following statements are correct about zeolite?<br><ol><li>Zeolites are aluminosilicates having three dimensional network</li><li>Shape selectivity of zeolites depends upon porous structures of the catalyst</li><li>Zeolites are synthetic microporouse aluminosilicates which do not exist naturally</li><li>Zeolites are open structures of silica in which trivalent aluminium substitute by a fraction of silicion atoms</li></ol>",
+        "option1" : "1,2",
+        "option2" : "2,4",
+        "option3" : "1,2,3",
+        "option4" : "1,2,4",
+        "imgsrc" : ""
+    }
+]

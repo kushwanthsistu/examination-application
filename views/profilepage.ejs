@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "d-flex d-1 bg-secondary p-2 justify-content-center mb-4">
+       <h1 class = "text-light"> Lorem Ipsum </h1>
+    </div>
+    <div class="container">
+        <div id="subjectbuttons" class = "mb-3">
+        <button class="btn btn-dark me-2" id="physics">Physics</button>
+        <button class="btn btn-secondary me-2" id="chemistry">Chemistry</button>
+        <button class="btn btn-secondary me-2" id="maths">Mathematics</button>
+        <button class="btn btn-secondary me-2" id="biology">Biology</button></div>
+        <div id="physicspart" class = "p-2 border border-secondary border-3">
+            <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                <h4 class = "align-items-center"><b>Physics Practice Test-I</b></h4>
+                <button class="btn btn-secondary" onClick='trackOpenWindow("/physics/1");'>Start Test</button>
+            </div>
+            
+        </div>
+        <div id="chemistrypart" class = "p-2 border border-secondary border-3" style = "display : none">
+            <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                <h4 class = "align-items-center"><b>Chemistry Practice Test-I</b></h4>
+                <button class="btn btn-secondary" onClick='trackOpenWindow("/chemistry/1");'>Start Test</button>
+            </div>
+            
+        </div>
+        <div id="mathspart" class = "p-2 border border-secondary border-3" style = "display : none">
+            <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                <h4 class = "align-items-center"><b>Mathematics Practice Test-I</b></h4>
+                <button class="btn btn-secondary" onClick='trackOpenWindow("/mathematics/1");'>Start Test</button>
+            </div>
+            
+        </div>
+        <div id="biologypart" class = "p-2 border border-secondary border-3" style = "display : none">
+            <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                <h4 class = "align-items-center"><b>Biology Practice Test-I</b></h4>
+                <button class="btn btn-secondary" onClick='trackOpenWindow("/biology/1");'>Start Test</button>
+            </div>
+            
+        </div>
+    </div>
+        <!-- <button onClick='trackOpenWindow();' class = "btn btn-success">start exam</button> -->
+
+       <script>
+             function trackOpenWindow(message)
+            {
+                // alert(message) ;
+                // alert('hai') ;
+            window.open(`http://localhost:3000/exam${message}/confirmation`, "myWin2", "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200");
+            // if(window.focus)
+            // memwin.focus()
+            // if(!memwin.close)
+            // memwin.focus()
+            }
+            let physics = document.getElementById('physicspart') ;
+            let chemistry = document.getElementById('chemistrypart') ;
+            let maths = document.getElementById('mathspart') ;
+            let biology = document.getElementById('biologypart') ;
+            let activebutton = "physics" ;
+            let subjectbuttons = document.getElementById('subjectbuttons') ;
+            subjectbuttons.addEventListener('click', (e) => {
+                let subject = e.target.id ;
+                if(subject == "physics" || subject == "chemistry" || subject == "maths" || subject == "biology") {
+                document.getElementById(`${activebutton}part`).style.display = "none" ;
+                document.getElementById(`${activebutton}`).className = "btn btn-secondary me-2" ;
+                activebutton = e.target.id ;
+                document.getElementById(`${activebutton}part`).style.display = "block" ;
+                document.getElementById(`${activebutton}`).className = "btn btn-dark me-2" ;
+                }
+            })
+            
+            </script>
+</body>
+</html>

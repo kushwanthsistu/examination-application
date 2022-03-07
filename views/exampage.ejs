@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="http://localhost:3000/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="http://localhost:3000/bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body style = "height : 100%">
+    <div class="d-flex align-items-center bg-secondary text-light ps-3" style = "height : 10vh ;">
+    <div id ="menubutton" class = "btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg></div>
+        <h1 class="ms-4"><%= subject.charAt(0).toUpperCase() + subject.slice(1) %> Practice Test</h1></div>
+    <div class = "container-float overflow-hidden p-2" style = "height : 80vh" id="contentcontainer">
+        <div class="row">
+            <div class="col-md-8 col-lg-9 border-end border-4 border-dark d-flex flex-column" style = "height : 80vh ;">
+                <div class="border-bottom border-3 border-dark">
+                    <div class="d-flex justify-content-between">
+                        <h2><%= subject.charAt(0).toUpperCase() + subject.slice(1) %></h2>
+                        <h2 class = "font-monospace"><span id="hours">01</span>:<span id="minutes">00</span>:<span id="seconds">00</span></h2>
+                    </div>
+                </div>
+    <div class = "d-flex justify-content-between align-items-center">
+    <h2 id="questionnumber">Question : 1</h2>
+    <button id="resetbutton">Reset</button>
+    </div>
+    <div class="overflow-auto fs-5">
+    <p class = "statement" id = "0" >
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem doloribus assumenda voluptas qui saepe provident tempora, nisi, cumque nam explicabo maiores temporibus ducimus quam aspernatur omnis quibusdam sunt possimus enim?
+        Doloremque fugiat perspiciatis recusandae repudiandae corrupti dicta vero optio, iure, pariatur veritatis, accusantium incidunt hic. Nihil veniam hic, doloremque quisquam quos voluptas molestiae incidunt? Reiciendis cupiditate culpa sapiente natus molestias.
+        Commodi necessitatibus accusantium eius ad deleniti quae odit rerum fugit! Voluptatem error accusamus sed, quas repellendus est harum voluptas, culpa quaerat alias excepturi atque aperiam odit ex dolorum incidunt numquam?
+        Tempora harum quae accusamus exercitationem amet nobis adipisci ea facere. Temporibus voluptas qui expedita reprehenderit. Eaque possimus omnis ipsa harum, provident magni error. Distinctio officia, doloribus at quaerat quisquam assumenda?
+        <br><img src="" alt="" id="imagesource"></p>
+        <input type="radio" name="question" value ="A" id="option1">
+        <label for="option1" id="option1label">lorem </label><br>
+        <input type="radio" name="question" value ="B" id="option2">
+        <label for="option2" id="option2label">lorem</label>    <br>  
+        <input type="radio" name="question" value ="C" id="option3">
+        <label for="option3" id="option3label">lorem</label><br>
+        <input type="radio" name="question" value ="D" id="option4">
+        <label for="option4" id="option4label">lorem</label> <br>
+        </div></div>
+    <div class="col-md-4 col-lg-3 overflow-auto" style = "height : 80vh" id="sidepallett">
+        <div class = "container-fluid">
+            <button class = "btn btn-success my-2" style = "width : 20% ;" id = "attempted">0</button> Attempted questions<br>
+            <button class="btn btn-danger my-2" style = "width : 20% ;" id="notanswered">0</button> Not answered<br>
+            <button class="btn btn-primary my-2" style = "width : 20% ;" id="reviewed">0</button> Reviewed<br>
+            <button class="btn btn-secondary my-2" style = "width : 20% ;" id="notvisited">14</button> Not visited<br>
+        <div id="qbuttons" class = "row row-cols-4 row-cols-md-4 border-top border-3 border-dark mt-3 pt-3">
+    <% for(let i = 0;i<number;i++)  {%>
+        <button id="<%= i %>" class = "btn-secondary buttons col btn" style = "width : 20% ; margin: 2%;">
+            <%= i+1 %>
+        </button>
+        <% } %> 
+    </div></div></div></div>
+    </div>
+    <div class = "container-fluid mt-2">
+        <div class="row">
+        <div class = "col-sm-8 col-lg-9 d-flex">
+        <button id="previous" class = "btn btn-secondary">previous</button>
+        <button id="markforreview" class = "text-nowrap btn btn-primary mx-2">mark for review</button>
+        <button id="pickans" class = "text-nowrap ms-auto btn btn-secondary">save and next</button></div>
+        <div class = "col-sm-4 col-lg-3 d-flex mt-3 mt-sm-0">
+        <button id="submit" class = "mx-auto btn btn-success">submit</button></div>
+    </div></div>
+    <div id="loadmessage">
+        <div class = "d-flex flex-column justify-content-center align-items-center" style = "height : 100% ;">
+        <h1 id = "messagedelivery">loading please wait...</h1>
+        </div>
+    </div>
+
+        <script src = "http://localhost:3000/index.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
