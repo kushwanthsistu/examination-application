@@ -69,16 +69,16 @@
         "option2" : "3-chloro-4-methoxy-1-methyl benzene",
         "option3" : "4-methoxy-1-methyl chlorobenzene",
         "option4" : "1-chloro-2-methoxy-5-methyl benzene",
-        "imgsrc" : ""
+        "imgsrc" : "/images/chemistry_7.jpg"
     },
     {
         "_id" : 8,
         "statement" : "Find the correct product (A) after completion of reaction",
-        "option1" : "",
-        "option2" : "",
-        "option3" : "",
-        "option4" : "",
-        "imgsrc" : ""
+        "option1" : "<img src = '/images/chemistry_8_optionA.jpg'>",
+        "option2" : "<img src = '/images/chemistry_8_optionB.jpg'>",
+        "option3" : "<img src = '/images/chemistry_8_optionC.jpg'>",
+        "option4" : "<img src = '/images/chemistry_8_optionD.jpg'>",
+        "imgsrc" : "/images/chemistry_8.jpg"
     },
     {
         "_id" : 9,
@@ -101,20 +101,20 @@
     {
         "_id" : 11,
         "statement" : "In an E<sub>2</sub> reaction with hydroxide ion, which pair has the later alkyl halide more reactive than former?",
-        "option1" : "",
-        "option2" : "",
-        "option3" : "",
-        "option4" : "",
-        "imgsrc" : ""
+        "option1" : "<img src = '/images/chemistry_11_optionA.jpg'>",
+        "option2" : "<img src = '/images/chemistry_11_optionB.jpg'>",
+        "option3" : "<img src = '/images/chemistry_11_optionC.jpg'>",
+        "option4" : "<img src = '/images/chemistry_11_optionD.jpg'>",
+        "imgsrc" : "/images/chemistry_11.jpg"
     },
     {
         "_id" : 12,
         "statement" : "Predict the product",
-        "option1" : "",
-        "option2" : "",
-        "option3" : "",
-        "option4" : "",
-        "imgsrc" : ""
+        "option1" : "<img src = '/images/chemistry_12_optionA.jpg'>",
+        "option2" : "<img src = '/images/chemistry_12_optionB.jpg'>",
+        "option3" : "<img src = '/images/chemistry_12_optionC.jpg'>",
+        "option4" : "<img src = '/images/chemistry_12_optionD.jpg'>",
+        "imgsrc" : "/images/chemistry_12.jpg"
     },
     {
         "_id" : 13,
@@ -186,7 +186,7 @@
         "option2" : "6",
         "option3" : "18",
         "option4" : "15",
-        "imgsrc" : ""
+        "imgsrc" : "/images/chemistry_20.jpg"
     },
     {
         "_id" : 21,

@@ -15,7 +15,7 @@
         "option2" : "1/K[mg+(qR<sup>2</sup>/l)(dB/dt)]",
         "option3" : "1/K[mg-(2qR<sup>2</sup>/l)(dB/dt)]",
         "option4" : "1/K[mg+(qR<sup>2</sup>/2l)(dB/dt)]",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_1.jpg"
     },
     {
         "_id" : 2,
@@ -24,7 +24,7 @@
         "option2" : "8 : 1",
         "option3" : "7 : 1",
         "option4" : "49 : 1",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_2.jpg"
     },
     {
         "_id" : 3,
@@ -74,11 +74,11 @@
     {
         "_id" : 8,
         "statement" : "The logic circuit shown below has the input waveforms A and B as shown. Pick out the correct output waveform.",
-        "option1" : "",
-        "option2" : "",
-        "option3" : "",
-        "option4" : "",
-        "imgsrc" : ""
+        "option1" : "<img src = '/images/physics_8_optionA.jpg'>",
+        "option2" : "<img src = '/images/physics_8_optionB.jpg'>",
+        "option3" : "<img src = '/images/physics_8_optionC.jpg'>",
+        "option4" : "<img src = '/images/physics_8_optionD.jpg'>",
+        "imgsrc" : "/images/physics_8.jpg"
     },
     {
         "_id" : 9,
@@ -105,7 +105,7 @@
         "option2" : "2.54",
         "option3" : "50.54",
         "option4" : "200.54",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_11.jpg"
     },
     {
         "_id" : 12,
@@ -123,7 +123,7 @@
         "option2" : "the loop will be attracted by the conductor only if the current in the loop flows clockwise",
         "option3" : "the loop will be attracted by the conductor only if the current in the loop flows anticlockwise",
         "option4" : "the loop will always be attracted by the conductor",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_13.jpg"
     },
     {
         "_id" : 14,
@@ -132,11 +132,11 @@
         "option2" : "D&frasl;3v<sub>o</sub>",
         "option3" : "D&frasl;v<sub>o</sub>",
         "option4" : "7<sup>1/2</sup>D&frasl;3v<sub>o</sub>",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_14.jpg"
     },
     {
         "_id" : 15,
-        "statement" : "A capacitance of 2 &mu;F is reuqired in an electrical circuit across a potential difference of 1.0 kV. A large number of 1 microF capacitors are available which can withstand a potential difference of not more than 300 V. the minimum number of capacitors requried to achieve this is",
+        "statement" : "A capacitance of 2 &mu;F is required in an electrical circuit across a potential difference of 1.0 kV. A large number of 1 microF capacitors are available which can withstand a potential difference of not more than 300 V. the minimum number of capacitors requried to achieve this is",
         "option1" : "32",
         "option2" : "2",
         "option3" : "16",
@@ -159,7 +159,7 @@
         "option2" : "a finite current will flow initially that will decrease exponentially with time",
         "option3" : "no current will flow",
         "option4" : "information is insufficient to predict",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_17.jpg"
     },
     {
         "_id" : 18,
@@ -195,7 +195,7 @@
         "option2" : "14",
         "option3" : "15",
         "option4" : "16",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_21.jpg"
     },
     {
         "_id" : 22,
@@ -213,7 +213,7 @@
         "option2" : "6",
         "option3" : "8",
         "option4" : "9",
-        "imgsrc" : ""
+        "imgsrc" : "/images/physics_23.jpg"
     },
     {
         "_id" : 24,

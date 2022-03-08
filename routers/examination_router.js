@@ -1,29 +1,27 @@
 const express = require('express') ;
 const cors = require('cors') ;
-const data = require('../questionpapers/physics_1.json') ;
 const ejs = require('ejs') ;
-const key = require('../questionpapers/answers.json') ;
 const patternmpc = require('../questionpapers/patternmpc.json') ;
 const patternbiology = require('../questionpapers/patternbiology.json') ;
 const path = require('path') ;
+const cookieparser = require("cookie-parser") ;
 let resultdetails = require('../questionpapers/resultdetails.json') ;
 // resultdetails.totalquestions = pattern.number ;
 // console.log(data) ;
-path.join(__dirname , 'public') ;
-let result ;
 
 const router = express.Router() ;
-router.use(express.static('public')) ;
+router.use(express.static(__dirname + '/public')) ;
 router.use(express.urlencoded({ extended : true })) ;
 router.use(express.json()) ;
 router.use(cors()) ;
+router.use(cookieparser()) ;
 
 router.get('/', (req, res) => {
+    res.cookie('name', 'kushwanth') ;
     res.render('exampageworking.ejs') ;
 })
 
 router.get('/:subject/:id/confirmation', (req, res) => {
-    res.cookie('subject',`${req.params.subject}`) ;
     res.render('instructionspage.ejs', { ...req.params });
 })
 
@@ -40,8 +38,11 @@ router.get('/page/:subject/:id', (req, res) => {
     }
 })
 
-router.get('/remodelling', (req, res) => {
+router.get('/page/:subject/:id/data', (req, res) => {
+    if(req.cookies.startedexam) {
+    const data = require(`../questionpapers/${req.params.subject}_${req.params.id}.json`) ;
     res.json(data) ;
+    }
 })
 
 // router.get('/page/:next', (req, res) => {
@@ -52,43 +53,48 @@ router.get('/remodelling', (req, res) => {
 //     res.json(data[next]) ;
 // })
 
-// router.post('/submit', (req, res) => {
-//     result = req.body ;
-//     resultdetails.score = evaluate(result) ;
-//     console.log(key) ;
-//     console.log(result) ;
-//     console.log(resultdetails.score) ;
-//     // res.send(`<h1>successfully submitted</h1><h2>your score is ${score}</h2>`) ;
-// })
 
-// router.get('/submitted', (req, res) => {
-//     res.render('successpage.ejs') ;
-// })
+router.get('/:subject/:id/submitted', (req, res) => {
+    res.render('successpage.ejs', { ...req.params }) ;
+})
 
-// router.get('/solutionpage', (req, res) => {
-//     res.render('solutionpage.ejs', { result, key : key, ...resultdetails }) ;
-//     // res.send(resultdetails) ;
-// })
+router.get('/:subject/:id/solutionpage', (req, res) => {
+    let result = req.cookies.result ;
+    result = JSON.parse(result) ;
+    res.clearCookie('result') ;
+    res.clearCookie('startedexam') ;
+    let resultanalysis ;
+    let key = require(`../questionpapers/${req.params.subject}_${req.params.id}answers.json`) ;
 
-// function evaluate(result) {
-//     resultdetails.score = 0 ;
-//     resultdetails.correct = 0 ;
-//     resultdetails.incorrect = 0 ;
-//     for(let i = 0;i<pattern.number;i++) {
-//         if(result[`answer${i}`]) {
-//             if(result[`answer${i}`] === key[`answer${i}`]) {
-//             resultdetails.score = resultdetails.score + 4 ;
-//             resultdetails.correct++ ;
-//             }
-//             else if(result[`answer${i}`] === "notanswered")
-//             resultdetails.score = resultdetails.score - 0 ;
-//             else {
-//             resultdetails.score = resultdetails.score - 1 ;
-//             resultdetails.incorrect++ ;
-//             }
-//         }
-//     }
-//     return resultdetails.score ;
-// }
+    if(req.params.subject == "biology")
+    resultanalysis = evaluate(result, key, 90) ;
+    else
+    resultanalysis = evaluate(result, key, 25) ;
+    const data = require(`../questionpapers/${req.params.subject}_${req.params.id}.json`) ;
+    res.render('solutionpage.ejs', { result, key : key, ...resultanalysis, data }) ;
+    // res.send(resultdetails) ;
+})
+
+function evaluate(result, key, totalno) {
+    resultdetails.totalquestions = totalno ;
+    resultdetails.score = 0 ;
+    resultdetails.correct = 0 ;
+    resultdetails.incorrect = 0 ;
+    for(let i = 0;i<totalno;i++) {
+        if(result[`answer${i}`]) {
+            if(result[`answer${i}`] === key[`answer${i}`]) {
+            resultdetails.score = resultdetails.score + 4 ;
+            resultdetails.correct++ ;
+            }
+            else if(result[`answer${i}`] === "notanswered")
+            resultdetails.score = resultdetails.score - 0 ;
+            else {
+            resultdetails.score = resultdetails.score - 1 ;
+            resultdetails.incorrect++ ;
+            }
+        }
+    }
+    return resultdetails ;
+}
 
 module.exports = router ;

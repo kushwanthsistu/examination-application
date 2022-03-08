@@ -4,12 +4,12 @@ const path = require('path') ;
 const examinationrouter = require('./routers/examination_router.js') ;
 
 const app = express() ;
-path.join(__dirname , 'public') ;
+path.join(__dirname , '/public') ;
 
 app.set('view-engine', 'ejs') ;
 
 app.use('/exam', examinationrouter) ;
-app.use(express.static('public')) ;
+app.use(express.static(__dirname + '/public')) ;
 
 app.get('/', (req, res) => {
     res.render('profilepage.ejs') ;

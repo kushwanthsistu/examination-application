@@ -1,8 +1,10 @@
-
+// alert(`${subject}_${id}`) ;
+var subject = subject ;
+var id = id ;
 window.addEventListener('load', () => {
     let data ;
     let xhr = new XMLHttpRequest() ;
-    xhr.open('GET', "http://localhost:3000/exam/remodelling", true) ;
+    xhr.open('GET', `http://localhost:5000/exam/page/${subject}/${id}/data`, true) ;
     xhr.send() ;
     xhr.onload = () => {
         data = xhr.responseText ;
@@ -80,7 +82,10 @@ let notanswered = 0 ;
 let reviewedquestion = document.getElementById('reviewed') ;
 let reviewed = 0 ;
 let notvisitedquestion = document.getElementById('notvisited') ;
-let notvisited = 14 ;
+if(subject == "biology")
+notvisited = 90 ;
+else
+notvisited = 25 ;
 
 window.addEventListener('resize', () => {
     if(window.innerWidth > 720) 
@@ -185,7 +190,8 @@ function displayquestion(data) {
     option2.innerHTML = data.option2 ;
     option3.innerHTML = data.option3 ;
     option4.innerHTML = data.option4 ;
-    imagesource.src = "http://localhost:3000/images/demo.jpg" ;
+    var imagesource = document.getElementById('imagesource') ;
+    imagesource.src = data.imgsrc ;
     buttons[`${data._id}`].className = "btn-dark " + buttons[`${data._id}`].className;
 }
 
@@ -197,16 +203,8 @@ function submittingdata() {
         else
         document.getElementById('messagedelivery').innerText = "Submitting..." ;
         document.getElementById('loadmessage').style.display = "block" ;
-        const xhr = new XMLHttpRequest() ;
-        xhr.open('POST', "http://localhost:3000/exam/submit", true) ;
-            xhr.setRequestHeader('Content-Type', 'application/json') ;
-            xhr.send(JSON.stringify(ansobject)) ;
-            xhr.onload = () => {
-                // let data = this.http.responseText ;
-                // let employees = JSON.parse(data) ;
-                
-            }
-        window.open('http://localhost:3000/exam/submitted', "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
+        document.cookie = 'result = '+JSON.stringify(ansobject)+'; path=/' ;
+        window.open(`http://localhost:5000/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
 }
 
 submitbutton.addEventListener('click', submittingdata, false) ;
@@ -260,8 +258,10 @@ let resetbutton = document.getElementById('resetbutton') ;
 resetbutton.addEventListener('click', () => {
     let options = document.getElementsByName('question') ;
     for(let option of options) {
+        if(option.checked) {
         option.checked = false ;
-            ansobject[`answer${number[0].id}`] = "notanswered" ;
+        ansobject[`answer${number[0].id}`] = "notanswered" ;
             // selected = 1 ;
         }
+    }
 })
