@@ -32,7 +32,7 @@
         "option1" : "0.16(AA); 0.24(Aa); 0.36(aa)",
         "option2" : "0.16(AA); 0.48(Aa); 0.36(aa)",
         "option3" : "0.16(AA); 0.36(Aa); 0.48(aa)",
-        "option4" : "0.36(AA); 0.48(Aa); 0.16(",
+        "option4" : "0.36(AA); 0.48(Aa); 0.16(aa)",
         "imgsrc" : ""
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "_id" : 6,
-        "statement" : "Match Column-1 with column-2<br><table><tr><th>Column-1</th><th>Column-2</th></tr><tr><td>Saprophyte</td><td>Symbiotic association of fungi with plant roots</td></tr><tr><td>Parasite</td><td>Decomposition of dead organic materials</td></tr><tr><td>Liches</td><td>Living on living plants or animals</td></tr><tr><td>Mycorrhiza</td><td>Symbiotic assocaiton of algae and fungi</td></tr><table><br>Choose the correct answer from the option given below",
+        "statement" : "Match Column-1 with column-2<br><table><tr><th>Column-1</th><th>Column-2</th></tr><tr><td>(a) Saprophyte</td><td>(i) Symbiotic association of fungi with plant roots</td></tr><tr><td>(b) Parasite</td><td>(ii) Decomposition of dead organic materials</td></tr><tr><td>(c) Liches</td><td>(iii) Living on living plants or animals</td></tr><tr><td>(d) Mycorrhiza</td><td>(iv) Symbiotic assocaiton of algae and fungi</td></tr><table><br>Choose the correct answer from the option given below",
         "option1" : "(iii) (ii) (i) (iv)",
         "option2" : "(ii) (i) (iii) (iv)",
         "option3" : "(ii) (iii) (iv) (i)",
@@ -127,7 +127,7 @@
     },
     {
         "_id" : 14,
-        "statement" : "Match the following organisms with their respective charactersitics : <br><table><tr><td>(a) <i>Pile</i></td><td>Flame cells</td></tr><tr><td><i>Bombyx</i></td><td>Comb cells</td></tr><tr><td><i>Pleurobrachia</i></td><td>Raudla</td></tr><tr><td><i>Taenai</i></td><td>Malpighia tubules</td><tr></table><br>Select the correct option from the following : ",
+        "statement" : "Match the following organisms with their respective charactersitics : <br><table><tr><th>Column-I</th><th>Column - II</th></tr><tr><td>(a) <i>Pile</i></td><td>(i) Flame cells</td></tr><tr><td>(b) <i>Bombyx</i></td><td>(ii) Comb cells</td></tr><tr><td>(c) <i>Pleurobrachia</i></td><td>(iii) Raudla</td></tr><tr><td>(d) <i>Taenai</i></td><td>(iv) Malpighia tubules</td><tr></table><br>Select the correct option from the following : ",
         "option1" : "(iii) (iv) (ii) (i)",
         "option2" : "(ii) (iv) (iii) (i)",
         "option3" : "(iii) (ii) (iv) (i)",
@@ -145,7 +145,7 @@
     },
     {
         "_id" : 16,
-        "statement" : "Match the following organisms with the products they produce<br><table><tr><td><i>Lactobacillus</i></td><td>Cheese</td></tr><tr><td><i>Saccharomyces cerevisiae</i></td><td>Cure</td></tr><tr><td><i>Aspergillus niger</i></td><td>Citric acid</td></tr><tr><td><i>Acetobacter aceti</i></td><td>Bread</td></tr><tr><td></td><td>Acetic acid</td></tr></table><br> select the correct option.",
+        "statement" : "Match the following organisms with the products they produce<br><table><tr><th>Column - I</th><th>Column - II</th></tr><tr><td>(a) <i>Lactobacillus</i></td><td>(i) Cheese</td></tr><tr><td>(b) <i>Saccharomyces cerevisiae</i></td><td>(ii) Cure</td></tr><tr><td>(c) <i>Aspergillus niger</i></td><td>(iii) Citric acid</td></tr><tr><td>(d) <i>Acetobacter aceti</i></td>(iv) <td>Bread</td></tr><tr><td></td><td>(v) Acetic acid</td></tr></table><br> select the correct option.",
         "option1" : "(ii) (iv) (iii) (v)",
         "option2" : "(iii) (iv) (v) (i)",
         "option3" : "(ii) (i) (iii) (v)",
@@ -226,7 +226,7 @@
     },
     {
         "_id" : 25,
-        "statement" : "Match the hominids with their correct brain size : <br><table><tr><td>(a) <i>Homo habilis</i></td><td>(i) 900 cc </td></tr><tr><td>(b) <i>Homo neanderthalensis</i></td><td>(ii) 1350 cc</td></tr><tr><td>(c) <i>Homo erectus</i></td><td> 650-800 cc </td></tr><tr><td>(d) <i>Homo sapiens</td></i><td>(iv> 1400 cc </td></tr></table> <br> Select the correct option.",
+        "statement" : "Match the hominids with their correct brain size : <br><table><tr><th>Column -I</th><th>Column - II</th></tr><tr><td>(a) <i>Homo habilis</i></td><td>(i) 900 cc </td></tr><tr><td>(b) <i>Homo neanderthalensis</i></td><td>(ii) 1350 cc</td></tr><tr><td>(c) <i>Homo erectus</i></td><td>(iii) 650-800 cc </td></tr><tr><td>(d) <i>Homo sapiens</td></i><td>(iv) 1400 cc </td></tr></table> <br> Select the correct option.",
         "option1" : "(iii) (ii) (i) (iv)",
         "option2" : "(iii) (iv) (i) (ii)",
         "option3" : "(iv) (iii) (i) (ii)",
@@ -298,7 +298,7 @@
     },
     {
         "_id" : 33,
-        "statement" : "Match the following hormones with the respective disease <br><table><tr><td>Insulin</td><td>Addison's disease</td></tr><tr><td>Thyroxin</td><td>Diabetes insipidus</td></tr><tr><td>Corticoids</td><td>Acromegaly</td></tr><tr><td>Growth Hormone</td><td>Goitre</td></tr><tr><td></td><td>Diabetes mellitus</td></tr></table><br> Select the correct option.",
+        "statement" : "Match the following hormones with the respective disease <br><table><tr><th>Column - I</th><th>Column - II</th></tr><tr><td>(a) Insulin</td><td>(i) Addison's disease</td></tr><tr><td>(b) Thyroxin</td><td>(ii) Diabetes insipidus</td></tr><tr><td>(c) Corticoids</td><td>(iii) Acromegaly</td></tr><tr><td>(d) Growth Hormone</td><td>(iv) Goitre</td></tr><tr><td></td><td>(v) Diabetes mellitus</td></tr></table><br> Select the correct option.",
         "option1" : "(ii) (iv) (iii) (i)",
         "option2" : "(v) (iv) (i) (iii)",
         "option3" : "(ii) (iv) (i) (iii)",
@@ -361,7 +361,7 @@
     },
     {
         "_id" : 40,
-        "statement" : "Match the following genes of the Lac operon with their respective products :<br><table><tr><td> i gene</td><td>beta-galactosidase</td></tr><tr><td> z gene</td><td>Permease</td></tr><tr><td> a gene</td><td>Repressor</td></tr><tr><td> y gene</td><td>Transacetylase</td></tr></table><br> Select the correct option.",
+        "statement" : "Match the following genes of the Lac operon with their respective products :<br><table><tr><th>Column - I</th><th>Column - II</th></tr><tr><td>(a) i gene</td><td>(i) beta-galactosidase</td></tr><tr><td>(b) z gene</td><td>(ii) Permease</td></tr><tr><td>(c) a gene</td><td>(iii) Repressor</td></tr><tr><td>(d) y gene</td><td>(iv) Transacetylase</td></tr></table><br> Select the correct option.",
         "option1" : "(iii) (i) (ii) (iv)",
         "option2" : "(iii) (i) (iv) (ii)",
         "option3" : "(iii) (iv) (i) (ii)",
@@ -514,7 +514,7 @@
     },
     {
         "_id" : 57,
-        "statement" : "Use of an artificial kidney during hemodialysis may result in : <br>Nitrogenous waste build-up in the body <br>(b) Non-elimination of excess potassium ions<br>(c) Reduced absorption of calcium ions from gastro-intestinal tract<br>(d) Reduced RBC production<br> which of the following options is the most appropirate?",
+        "statement" : "Use of an artificial kidney during hemodialysis may result in : <br>(a) Nitrogenous waste build-up in the body <br>(b) Non-elimination of excess potassium ions<br>(c) Reduced absorption of calcium ions from gastro-intestinal tract<br>(d) Reduced RBC production<br> which of the following options is the most appropirate?",
         "option1" : "b and c are correct",
         "option2" : "b and d are correct",
         "option3" : "a and d are correct",
@@ -595,7 +595,7 @@
     },
     {
         "_id" : 66,
-        "statement" : "Match the column-I with column-II<br><table><tr><td> P-wave</td><td> Depolarisation of ventricles</td><tr><tr><td> QRS complex</td><td> Repolarisation of ventricles</td></tr><tr><td> T-wave</td><td> Coronary ischemia</td></tr><tr><td> Reduction in the size of T-wave</td><td>Depolarisation of atria</td></tr><tr><td></td><td>Repolarisaion of atria</td></tr></table><br> Select the correct option.",
+        "statement" : "Match the column-I with column-II<br><table><tr><th>Column - I</th><th>Column - II</th></tr><tr><td>(a) P-wave</td><td>(i) Depolarisation of ventricles</td></tr><tr><td>(b) QRS complex</td><td>(ii) Repolarisation of ventricles</td></tr><tr><td>(c) T-wave</td><td>(iii) Coronary ischemia</td></tr><tr><td>(d) Reduction in the size of T-wave</td><td>(iv) Depolarisation of atria</td></tr><tr><td></td><td>(v) Repolarisaion of atria</td></tr></table><br> Select the correct option.",
         "option1" : "(iv) (i) (ii) (v)",
         "option2" : "(ii) (i) (v) (iii)",
         "option3" : "(ii) (iii) (v) (iv)",
@@ -659,7 +659,7 @@
 
     {
         "_id" : 73,
-        "statement" : "Consider the following statement : <br> (A) Coenzyme or metal ion that is tightly bound to enzyme protein is called prostetic group.<br>(B)A complete catalytic active enzyme with its bound prosthetic group is called apoenzyme.<br> Select the correct option.",
+        "statement" : "Consider the following statement : <br> (A) Coenzyme or metal ion that is tightly bound to enzyme protein is called prostetic group.<br>(B) A complete catalytic active enzyme with its bound prosthetic group is called apoenzyme.<br> Select the correct option.",
         "option1" : "A is true but B is false",
         "option2" : "both A and B are false",
         "option3" : "A is false but B is true",
@@ -750,7 +750,7 @@
 
     {
         "_id" : 83,
-        "statement" : "Match the following structures with their respective location in organs <br> <table><tr><td>Crypts of Lieberkuhn</td><td>Pancreas</td></tr><tr><td>Glisson's Capsule</td><td>Duodenum</td></tr><tr><td>Islets of Langerhans</td><td>Small intestine</td></tr><tr><td>Brunner's Glands</td><td>Liver</td></tr></table><br>Select the correct option from the following",
+        "statement" : "Match the following structures with their respective location in organs <br> <table><tr><th>Column - I</th><th>Column - II</th></tr><tr><td>(a) Crypts of Lieberkuhn</td><td>(i) Pancreas</td></tr><tr><td>(b) Glisson's Capsule</td><td>(ii) Duodenum</td></tr><tr><td>(c) Islets of Langerhans</td><td>(iii) Small intestine</td></tr><tr><td>(d) Brunner's Glands</td><td>(iv) Liver</td></tr></table><br>Select the correct option from the following",
         "option1" : "(ii) (iv) (i) (iii)",
         "option2" : "(iii) (iv) (i) (ii)",
         "option3" : "(iii) (ii) (i) (iv)",

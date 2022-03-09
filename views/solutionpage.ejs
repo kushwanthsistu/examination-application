@@ -33,7 +33,8 @@
         <% for(let i = 0;i<totalquestions;i++) { %>
             <div class = "questionblock" style = "display : none" id="question<%= i %>">
             <h4>Question : <%= i+1 %></h4>
-            <p><%= data[i].statement %></p>
+            <%= data[i].statement %><br>
+            <img src="<%= data[i].imgsrc %>" alt="">
             <ol type = "A">
                 <li> <%= data[i].option1 %></li>
                 <li> <%= data[i].option2 %></li>

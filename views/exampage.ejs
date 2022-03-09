@@ -29,7 +29,7 @@
     <h2 id="questionnumber">Question : 1</h2>
     <button id="resetbutton">Reset</button>
     </div>
-    <div class="overflow-auto fs-5">
+    <div class="overflow-auto fs-5 pb-2">
     <p class = "statement" id = "0" >
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem doloribus assumenda voluptas qui saepe provident tempora, nisi, cumque nam explicabo maiores temporibus ducimus quam aspernatur omnis quibusdam sunt possimus enim?
         Doloremque fugiat perspiciatis recusandae repudiandae corrupti dicta vero optio, iure, pariatur veritatis, accusantium incidunt hic. Nihil veniam hic, doloremque quisquam quos voluptas molestiae incidunt? Reiciendis cupiditate culpa sapiente natus molestias.
@@ -52,7 +52,7 @@
             <button class="btn btn-primary my-2" style = "width : 20% ;" id="reviewed">0</button> Reviewed<br>
             <button class="btn btn-secondary my-2" style = "width : 20% ;" id="notvisited">
             <% if(subject == "biology") { %>90<% } else { %>25<% } %></button> Not visited<br>
-        <div id="qbuttons" class = "row row-cols-4 row-cols-md-4 border-top border-3 border-dark mt-3 pt-3">
+        <div id="qbuttons" class = "row row-cols-4 row-cols-md-4 border-top border-3 border-dark mt-3 py-3">
     <% for(let i = 0;i<number;i++)  {%>
         <button id="<%= i %>" class = "btn-secondary buttons col btn" style = "width : 20% ; margin: 2%;">
             <%= i+1 %>
@@ -72,6 +72,7 @@
     <div id="loadmessage">
         <div class = "d-flex flex-column justify-content-center align-items-center" style = "height : 100% ;">
         <h1 id = "messagedelivery">loading please wait...</h1>
+        <h2>Don't refresh the page during exam</h2>
         </div>
     </div>
 

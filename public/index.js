@@ -5,6 +5,7 @@ window.addEventListener('load', () => {
     let data ;
     let xhr = new XMLHttpRequest() ;
     xhr.open('GET', `https://examination-application.herokuapp.com/exam/page/${subject}/${id}/data`, true) ;
+    // xhr.open('GET', `http://localhost:5000/exam/page/${subject}/${id}/data`, true) ;
     xhr.send() ;
     xhr.onload = () => {
         data = xhr.responseText ;
@@ -16,6 +17,8 @@ window.addEventListener('load', () => {
 let timedout = false ;
 let hours = 1 ;
 let minutes = 0 ;
+if(subject == "biology")
+minutes = 30 ;
 let seconds = 0 ;
 let hourdis = document.getElementById('hours') ;
 let minutedis = document.getElementById('minutes') ;
@@ -205,7 +208,8 @@ function submittingdata() {
         document.getElementById('loadmessage').style.display = "block" ;
         document.cookie = 'result = '+JSON.stringify(ansobject)+'; path=/' ;
         window.open(`https://examination-application.herokuapp.com/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
-}
+        // window.open(`https://localhost:5000/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
+    }
 
 submitbutton.addEventListener('click', submittingdata, false) ;
 

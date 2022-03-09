@@ -91,7 +91,7 @@
     },
     {
         "_id" : 10,
-        "statement" : "According to Huygen's principle, during refraction of light form air to a dense medium",
+        "statement" : "According to Huygen's principle, during refraction of light from air to a dense medium",
         "option1" : "Wavelength decreases but speed increases",
         "option2" : "Wavelength increases but speed decreases",
         "option3" : "Wavelength and speed both increase",
@@ -100,7 +100,7 @@
     },
     {
         "_id" : 11,
-        "statement" : "A 100V, AC source of frequency 500 Hz is connected to an LCR circuit with L = 8.1 mH, C = 12.5 microF and R = 10 ohms. all connected in series as shown in the figure. what is the quality factor of the circuit?",
+        "statement" : "A 100V, AC source of frequency 500 Hz is connected to an LCR circuit with L = 8.1 mH, C = 12.5 &mu;F and R = 10 ohms. all connected in series as shown in the figure. what is the quality factor of the circuit?",
         "option1" : "2.02",
         "option2" : "2.54",
         "option3" : "50.54",
@@ -163,7 +163,7 @@
     },
     {
         "_id" : 18,
-        "statement" : "1.56 x 10<sup>5</sup> J of heat is conducted through a 12 cm thick wall of area 2 m<sup>2</sup> in one hour. if the temperature difference between the two sides of the wall is 20<sup>o</sup>C, then the thermal conductivity of the material of the wall is (in W m<sup>-1</sup> K<sup>-1</sup>",
+        "statement" : "1.56 x 10<sup>5</sup> J of heat is conducted through a 12 cm thick wall of area 2 m<sup>2</sup> in one hour. if the temperature difference between the two sides of the wall is 20<sup>o</sup>C, then the thermal conductivity of the material of the wall is (in W m<sup>-1</sup> K<sup>-1</sup>)",
         "option1" : "0.11",
         "option2" : "0.13",
         "option3" : "0.15",
@@ -172,7 +172,7 @@
     },
     {
         "_id" : 19,
-        "statement" : "A large vessel having a very small circular hole of diameter 1 mm at the bottom is filled with water. Up to what maximum height (in cm) water can be filled in teh vessel so that there is no leakage? [surface tension of water = 7.5 x 10<sup>-2</sup> Nm<sup>-1</sup> and g = 10]",
+        "statement" : "A large vessel having a very small circular hole of diameter 1 mm at the bottom is filled with water. Up to what maximum height (in cm) water can be filled in the vessel so that there is no leakage? [surface tension of water = 7.5 x 10<sup>-2</sup> Nm<sup>-1</sup> and g = 10]",
         "option1" : "3",
         "option2" : "6",
         "option3" : "9",
@@ -190,7 +190,7 @@
     },
     {
         "_id" : 21,
-        "statement" : "One-fourth length of a uniform rod is placed on a rough horizontal surface and it starts rotating about the edge as soon as we release it. The rod starts slipping on the edge when it has turned throught an angle a. if the coefficient of friction between rod and surface is m, and it satisfies the relation xtana = 4m, then what is the value of x?",
+        "statement" : "One-fourth length of a uniform rod is placed on a rough horizontal surface and it starts rotating about the edge as soon as we release it. The rod starts slipping on the edge when it has turned throught an angle &alpha;. if the coefficient of friction between rod and surface is &mu;, and it satisfies the relation xtan &alpha; = 4&mu;, then what is the value of x?",
         "option1" : "13",
         "option2" : "14",
         "option3" : "15",

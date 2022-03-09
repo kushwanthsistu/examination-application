@@ -15,8 +15,9 @@
         <div class = "overflow-scroll" style = "height : 75vh ;">
             <ul>
                 <li>There will be a total of <% if(subject == "biology") { %>
-                60 <% } else { %> 25 <% } %> questions from <%= subject %>    </li>
-                <li>You have 1 hour or 60 minutes. After 1 hour your answers will be automatically submitted</li>
+                90 <% } else { %> 25 <% } %> questions from <%= subject %>    </li>
+                <li>You have <% if(subject == "biology") { %> 1 hour and 30 minutes <% } else { %> 
+                 1 hour or 60 minutes<% } %> . After the stipulated time your answers will be automatically submitted</li>
                 <li><button class="btn btn-secondary">Save and next</button> - Your answer will be 
                 saved and the next question will be display. if any option is selected the associated button will
                 turn green or else red.</li>
