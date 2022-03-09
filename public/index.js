@@ -4,7 +4,7 @@ var id = id ;
 window.addEventListener('load', () => {
     let data ;
     let xhr = new XMLHttpRequest() ;
-    xhr.open('GET', `https://examination-application.herokuapp.com/exam/page/${subject}/${id}/data`, false) ;
+    xhr.open('GET', `https://examination-application.herokuapp.com/exam/page/${subject}/${id}/data`, true) ;
     xhr.send() ;
     xhr.onload = () => {
         data = xhr.responseText ;
@@ -204,7 +204,7 @@ function submittingdata() {
         document.getElementById('messagedelivery').innerText = "Submitting..." ;
         document.getElementById('loadmessage').style.display = "block" ;
         document.cookie = 'result = '+JSON.stringify(ansobject)+'; path=/' ;
-        window.open(`http://localhost:5000/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
+        window.open(`https://examination-application.herokuapp.com/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
 }
 
 submitbutton.addEventListener('click', submittingdata, false) ;
