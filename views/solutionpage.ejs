@@ -94,20 +94,28 @@
         previousbutton.addEventListener('click', () => {
             let z = parseInt(presentnumber) ;
             z-- ;
+            var a = document.getElementById(`question${z}`) ;
+            if(a) {
                     presentquestion.style.display = "none" ;
-                    var a = document.getElementById(`question${z}`) ;
                     a.style.display = "block" ;
                     presentquestion = a ;
                     presentnumber = z ;
+            }
+            else
+            return ;
         }) ;
         nextbutton.addEventListener('click', () => {
             let z = parseInt(presentnumber) ;
-            z-- ;
+            z++ ;
+            var a = document.getElementById(`question${z}`) ;
+            if(a) {
                     presentquestion.style.display = "none" ;
-                    var a = document.getElementById(`question${z}`) ;
                     a.style.display = "block" ;
                     presentquestion = a ;
                     presentnumber = z ;
+            }
+            else
+            return ;
         }) ;
     </script>
 </body>
