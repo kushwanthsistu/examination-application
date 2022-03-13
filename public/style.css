@@ -28,7 +28,7 @@ body {
 }
 
 #loadmessage {
-    position : absolute ;
+    position : fixed ;
     top : 0px ;
     left : 0px ;
     bottom : 0px ;
@@ -37,7 +37,7 @@ body {
     height : 100% ;
 }
 
-td,th {
+td {
     padding-right: 15px ;
 }
 
