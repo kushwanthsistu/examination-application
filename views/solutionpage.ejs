@@ -29,8 +29,22 @@
             <% }} %> " id="<%= i %>"><%= i+1 %> </button>
             <% } %> 
     </div>
-    <div class = "m-2"> 
-        <% for(let i = 0;i<totalquestions;i++) { %>
+    <div class = "m-2">
+        <div class = "questionblock" id = "question0">
+            <h4>Question : 1</h4>
+            <%= data[0].statement %><br>
+            <img src="<%= data[0].imgsrc %>" alt="">
+            <ol type = "A">
+                <li> <%= data[0].option1 %></li>
+                <li> <%= data[0].option2 %></li>
+                <li> <%= data[0].option3 %></li>
+                <li> <%= data[0].option4 %></li>
+            </ol>
+            <p><b>Your answer :</b> <% if(result[`answer${0}`]) { %><%= result[`answer${0}`] %>
+            <% } else { %>not visited<% } %><br>
+            <b>Correct Answer :</b> <%= key[`answer${0}`] %> </p>
+        </div>
+        <% for(let i = 1;i<totalquestions;i++) { %>
             <div class = "questionblock" style = "display : none" id="question<%= i %>">
             <h4>Question : <%= i+1 %></h4>
             <%= data[i].statement %><br>
@@ -49,20 +63,13 @@
     </div>
     <script>
         var buttonsblock = document.getElementById('buttonsblock') ;
-        let presentquestion ;
+        let presentquestion = document.getElementById('question0') ;
         buttonsblock.addEventListener('click', (e) => {
             if(e.target.id != 'buttonsblock') {
-                if(presentquestion) {
                     presentquestion.style.display = "none" ;
                     var a = document.getElementById(`question${e.target.id}`) ;
                     a.style.display = "block" ;
                     presentquestion = a ;
-                }
-                else {
-                    var a = document.getElementById(`question${e.target.id}`) ;
-                    a.style.display = "block" ;
-                    presentquestion = a ;
-                }
             }
         })
     </script>
