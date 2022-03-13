@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <style> 
+        img {
+            width : 40% ;
+        }
+    </style>
     <title>solution page</title>
 </head>
 <body class = "container-md">
@@ -32,13 +37,13 @@
     <div class = "m-2">
         <div class = "questionblock" id = "question0">
             <h4>Question : 1</h4>
-            <%= data[0].statement %><br>
+            <%- data[0].statement %><br>
             <img src="<%= data[0].imgsrc %>" alt="">
             <ol type = "A">
-                <li> <%= data[0].option1 %></li>
-                <li> <%= data[0].option2 %></li>
-                <li> <%= data[0].option3 %></li>
-                <li> <%= data[0].option4 %></li>
+                <li> <%- data[0].option1 %></li>
+                <li> <%- data[0].option2 %></li>
+                <li> <%- data[0].option3 %></li>
+                <li> <%- data[0].option4 %></li>
             </ol>
             <p><b>Your answer :</b> <% if(result[`answer${0}`]) { %><%= result[`answer${0}`] %>
             <% } else { %>not visited<% } %><br>
@@ -47,13 +52,13 @@
         <% for(let i = 1;i<totalquestions;i++) { %>
             <div class = "questionblock" style = "display : none" id="question<%= i %>">
             <h4>Question : <%= i+1 %></h4>
-            <%= data[i].statement %><br>
+            <%- data[i].statement %><br>
             <img src="<%= data[i].imgsrc %>" alt="">
             <ol type = "A">
-                <li> <%= data[i].option1 %></li>
-                <li> <%= data[i].option2 %></li>
-                <li> <%= data[i].option3 %></li>
-                <li> <%= data[i].option4 %></li>
+                <li> <%- data[i].option1 %></li>
+                <li> <%- data[i].option2 %></li>
+                <li> <%- data[i].option3 %></li>
+                <li> <%- data[i].option4 %></li>
             </ol>
             <p><b>Your answer :</b> <% if(result[`answer${i}`]) { %><%= result[`answer${i}`] %>
             <% } else { %>not visited<% } %><br>
