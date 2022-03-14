@@ -41,6 +41,7 @@ router.get('/page/:subject/:id', (req, res) => {
 router.get('/page/:subject/:id/data', (req, res) => {
     if(req.cookies.startedexam) {
     const data = require(`../questionpapers/${req.params.subject}_${req.params.id}.json`) ;
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.json(data) ;
     }
 })
