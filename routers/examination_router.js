@@ -13,7 +13,6 @@ const router = express.Router() ;
 router.use(express.static(__dirname + '/public')) ;
 router.use(express.urlencoded({ extended : true })) ;
 router.use(express.json()) ;
-router.use(cors()) ;
 router.use(cookieparser()) ;
 
 router.get('/', (req, res) => {
@@ -41,7 +40,7 @@ router.get('/page/:subject/:id', (req, res) => {
 router.get('/page/:subject/:id/data', (req, res) => {
     if(req.cookies.startedexam) {
     const data = require(`../questionpapers/${req.params.subject}_${req.params.id}.json`) ;
-    res.setHeader("Access-Control-Allow-Origin", "*");
+
     res.json(data) ;
     }
 })
