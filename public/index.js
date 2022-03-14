@@ -207,7 +207,7 @@ function submittingdata() {
         document.getElementById('messagedelivery').innerText = "Submitting..." ;
         document.getElementById('loadmessage').style.display = "block" ;
         document.cookie = 'result = '+JSON.stringify(ansobject)+'; path=/' ;
-        window.open(`https://examination-application.herokuapp.com/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
+        window.open(`http://examination-application.herokuapp.com/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
         // window.open(`https://localhost:5000/exam/${subject}/${id}/submitted`, "_self" , "toolbar=yes, scrollbars=yes, resizable=yes, height=590,width=1200") ;
     }
 
