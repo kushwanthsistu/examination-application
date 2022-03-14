@@ -1,6 +1,7 @@
 const express = require('express') ;
 const ejs = require('ejs') ;
 const path = require('path') ;
+const cors = require('cors') ;
 const examinationrouter = require('./routers/examination_router.js') ;
 
 const app = express() ;
@@ -10,6 +11,7 @@ app.set('view-engine', 'ejs') ;
 
 app.use('/exam', examinationrouter) ;
 app.use(express.static(__dirname + '/public')) ;
+app.use(cors()) ;
 
 app.get('/', (req, res) => {
     res.render('profilepage.ejs') ;
