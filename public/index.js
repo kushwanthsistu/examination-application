@@ -135,12 +135,14 @@ function dataentry() {
 
 pickupbutton.addEventListener('click', () => {
     dataentry() ;
-            displayquestion(data[`${qnumber}`]) ;
+    displayquestion(data[`${qnumber}`]) ;
 })
 
 const previousbutton = document.getElementById("previous") ;
 
 previousbutton.addEventListener('click', () => {
+    if(qnumber-2 < 0)
+    return ;
     dataentry() ;
     displayquestion(data[`${qnumber-2}`]) ;
 })
