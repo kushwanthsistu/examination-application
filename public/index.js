@@ -4,7 +4,7 @@ var id = id ;
 window.addEventListener('load', () => {
     let data ;
     let xhr = new XMLHttpRequest() ;
-    xhr.open('GET', `https://examination-application.herokuapp.com/exam/page/${subject}/${id}/data`, true) ;
+    xhr.open('GET', `https://examination-application.onrender.com/exam/page/${subject}/${id}/data`, true) ;
     // xhr.open('GET', `http://localhost:5000/exam/page/${subject}/${id}/data`, true) ;
     xhr.send() ;
     xhr.onload = () => {
